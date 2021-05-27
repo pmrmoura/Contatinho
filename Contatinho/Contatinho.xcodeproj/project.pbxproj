@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C187BC03265FC9D800B559ED /* Contatinho WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C187BC02265FC9D800B559ED /* Contatinho WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C187BC08265FC9D900B559ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C187BC07265FC9D900B559ED /* Assets.xcassets */; };
+		C187BC0F265FC9D900B559ED /* Contatinho WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C187BC0E265FC9D900B559ED /* Contatinho WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C187BC14265FC9D900B559ED /* ContatinhoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187BC13265FC9D900B559ED /* ContatinhoApp.swift */; };
+		C187BC16265FC9D900B559ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187BC15265FC9D900B559ED /* ContentView.swift */; };
+		C187BC18265FC9D900B559ED /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187BC17265FC9D900B559ED /* NotificationController.swift */; };
+		C187BC1A265FC9D900B559ED /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187BC19265FC9D900B559ED /* NotificationView.swift */; };
+		C187BC1C265FC9D900B559ED /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187BC1B265FC9D900B559ED /* ComplicationController.swift */; };
+		C187BC1E265FC9DA00B559ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C187BC1D265FC9DA00B559ED /* Assets.xcassets */; };
+		C187BC21265FC9DA00B559ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C187BC20265FC9DA00B559ED /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C187BC04265FC9D800B559ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C187BBF8265FC9D700B559ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C187BC01265FC9D800B559ED;
+			remoteInfo = "Contatinho WatchKit App";
+		};
+		C187BC10265FC9D900B559ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C187BBF8265FC9D700B559ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C187BC0D265FC9D900B559ED;
+			remoteInfo = "Contatinho WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C187BC29265FC9DA00B559ED /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C187BC0F265FC9D900B559ED /* Contatinho WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C187BC2D265FC9DA00B559ED /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C187BC03265FC9D800B559ED /* Contatinho WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C187BBFE265FC9D700B559ED /* Contatinho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contatinho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C187BC02265FC9D800B559ED /* Contatinho WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contatinho WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C187BC07265FC9D900B559ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C187BC09265FC9D900B559ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C187BC0E265FC9D900B559ED /* Contatinho WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Contatinho WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C187BC13265FC9D900B559ED /* ContatinhoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatinhoApp.swift; sourceTree = "<group>"; };
+		C187BC15265FC9D900B559ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C187BC17265FC9D900B559ED /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C187BC19265FC9D900B559ED /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		C187BC1B265FC9D900B559ED /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C187BC1D265FC9DA00B559ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C187BC20265FC9DA00B559ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C187BC22265FC9DA00B559ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C187BC23265FC9DA00B559ED /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C187BC0B265FC9D900B559ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C187BBF7265FC9D700B559ED = {
+			isa = PBXGroup;
+			children = (
+				C187BC06265FC9D800B559ED /* Contatinho WatchKit App */,
+				C187BC12265FC9D900B559ED /* Contatinho WatchKit Extension */,
+				C187BBFF265FC9D700B559ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C187BBFF265FC9D700B559ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C187BBFE265FC9D700B559ED /* Contatinho.app */,
+				C187BC02265FC9D800B559ED /* Contatinho WatchKit App.app */,
+				C187BC0E265FC9D900B559ED /* Contatinho WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C187BC06265FC9D800B559ED /* Contatinho WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C187BC07265FC9D900B559ED /* Assets.xcassets */,
+				C187BC09265FC9D900B559ED /* Info.plist */,
+			);
+			path = "Contatinho WatchKit App";
+			sourceTree = "<group>";
+		};
+		C187BC12265FC9D900B559ED /* Contatinho WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C187BC13265FC9D900B559ED /* ContatinhoApp.swift */,
+				C187BC15265FC9D900B559ED /* ContentView.swift */,
+				C187BC17265FC9D900B559ED /* NotificationController.swift */,
+				C187BC19265FC9D900B559ED /* NotificationView.swift */,
+				C187BC1B265FC9D900B559ED /* ComplicationController.swift */,
+				C187BC1D265FC9DA00B559ED /* Assets.xcassets */,
+				C187BC22265FC9DA00B559ED /* Info.plist */,
+				C187BC23265FC9DA00B559ED /* PushNotificationPayload.apns */,
+				C187BC1F265FC9DA00B559ED /* Preview Content */,
+			);
+			path = "Contatinho WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C187BC1F265FC9DA00B559ED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C187BC20265FC9DA00B559ED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C187BBFD265FC9D700B559ED /* Contatinho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C187BC2E265FC9DA00B559ED /* Build configuration list for PBXNativeTarget "Contatinho" */;
+			buildPhases = (
+				C187BBFC265FC9D700B559ED /* Resources */,
+				C187BC2D265FC9DA00B559ED /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C187BC05265FC9D800B559ED /* PBXTargetDependency */,
+			);
+			name = Contatinho;
+			productName = Contatinho;
+			productReference = C187BBFE265FC9D700B559ED /* Contatinho.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C187BC01265FC9D800B559ED /* Contatinho WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C187BC2A265FC9DA00B559ED /* Build configuration list for PBXNativeTarget "Contatinho WatchKit App" */;
+			buildPhases = (
+				C187BC00265FC9D800B559ED /* Resources */,
+				C187BC29265FC9DA00B559ED /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C187BC11265FC9D900B559ED /* PBXTargetDependency */,
+			);
+			name = "Contatinho WatchKit App";
+			productName = "Contatinho WatchKit App";
+			productReference = C187BC02265FC9D800B559ED /* Contatinho WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C187BC0D265FC9D900B559ED /* Contatinho WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C187BC26265FC9DA00B559ED /* Build configuration list for PBXNativeTarget "Contatinho WatchKit Extension" */;
+			buildPhases = (
+				C187BC0A265FC9D900B559ED /* Sources */,
+				C187BC0B265FC9D900B559ED /* Frameworks */,
+				C187BC0C265FC9D900B559ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Contatinho WatchKit Extension";
+			productName = "Contatinho WatchKit Extension";
+			productReference = C187BC0E265FC9D900B559ED /* Contatinho WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C187BBF8265FC9D700B559ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C187BBFD265FC9D700B559ED = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					C187BC01265FC9D800B559ED = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					C187BC0D265FC9D900B559ED = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = C187BBFB265FC9D700B559ED /* Build configuration list for PBXProject "Contatinho" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C187BBF7265FC9D700B559ED;
+			productRefGroup = C187BBFF265FC9D700B559ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C187BBFD265FC9D700B559ED /* Contatinho */,
+				C187BC01265FC9D800B559ED /* Contatinho WatchKit App */,
+				C187BC0D265FC9D900B559ED /* Contatinho WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C187BBFC265FC9D700B559ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C187BC00265FC9D800B559ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C187BC08265FC9D900B559ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C187BC0C265FC9D900B559ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C187BC21265FC9DA00B559ED /* Preview Assets.xcassets in Resources */,
+				C187BC1E265FC9DA00B559ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C187BC0A265FC9D900B559ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C187BC18265FC9D900B559ED /* NotificationController.swift in Sources */,
+				C187BC16265FC9D900B559ED /* ContentView.swift in Sources */,
+				C187BC1C265FC9D900B559ED /* ComplicationController.swift in Sources */,
+				C187BC14265FC9D900B559ED /* ContatinhoApp.swift in Sources */,
+				C187BC1A265FC9D900B559ED /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C187BC05265FC9D800B559ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C187BC01265FC9D800B559ED /* Contatinho WatchKit App */;
+			targetProxy = C187BC04265FC9D800B559ED /* PBXContainerItemProxy */;
+		};
+		C187BC11265FC9D900B559ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C187BC0D265FC9D900B559ED /* Contatinho WatchKit Extension */;
+			targetProxy = C187BC10265FC9D900B559ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C187BC24265FC9DA00B559ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C187BC25265FC9DA00B559ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C187BC27265FC9DA00B559ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Contatinho WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2529YUQTU2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Contatinho WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jobtest.Contatinho.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		C187BC28265FC9DA00B559ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Contatinho WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2529YUQTU2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Contatinho WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jobtest.Contatinho.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		C187BC2B265FC9DA00B559ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2529YUQTU2;
+				IBSC_MODULE = Contatinho_WatchKit_Extension;
+				INFOPLIST_FILE = "Contatinho WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = jobtest.Contatinho.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		C187BC2C265FC9DA00B559ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2529YUQTU2;
+				IBSC_MODULE = Contatinho_WatchKit_Extension;
+				INFOPLIST_FILE = "Contatinho WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = jobtest.Contatinho.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		C187BC2F265FC9DA00B559ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2529YUQTU2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jobtest.Contatinho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C187BC30265FC9DA00B559ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2529YUQTU2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jobtest.Contatinho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C187BBFB265FC9D700B559ED /* Build configuration list for PBXProject "Contatinho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C187BC24265FC9DA00B559ED /* Debug */,
+				C187BC25265FC9DA00B559ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C187BC26265FC9DA00B559ED /* Build configuration list for PBXNativeTarget "Contatinho WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C187BC27265FC9DA00B559ED /* Debug */,
+				C187BC28265FC9DA00B559ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C187BC2A265FC9DA00B559ED /* Build configuration list for PBXNativeTarget "Contatinho WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C187BC2B265FC9DA00B559ED /* Debug */,
+				C187BC2C265FC9DA00B559ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C187BC2E265FC9DA00B559ED /* Build configuration list for PBXNativeTarget "Contatinho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C187BC2F265FC9DA00B559ED /* Debug */,
+				C187BC30265FC9DA00B559ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C187BBF8265FC9D700B559ED /* Project object */;
+}
