@@ -9,21 +9,30 @@ import SwiftUI
 
 struct OnboardingView: View {
     @StateObject var viewModel = ContactViewModel()
+    @State var goToSelectContactsView: Bool = false
     var body: some View {
         VStack {
             Text("Para começar você precisar ter seu cartão registrado no contato")
                 .padding()
             Spacer()
-            Button(action: {print("dede")}, label: {
-                Text("Tenho sim")
-            })
-            
-//            ForEach(viewModel.contacts) { contact in
-//                VStack {
-//                    Text(contact.firstName)
-//                }
-//            }
-        }
+
+            NavigationLink(
+                destination: SelectContactsView(viewModel: viewModel),
+                isActive: $goToSelectContactsView,
+                label: {
+                        Text("Tenho sim")
+                }).onTapGesture {
+                    viewModel.permissions()
+                }
+
+        }.onAppear(perform: {
+            switch viewModel.getCurrentAuthStatus() {
+            case "authorized":
+                goToSelectContactsView = true
+            default:
+                goToSelectContactsView = false
+            }
+        })
     }
 }
 

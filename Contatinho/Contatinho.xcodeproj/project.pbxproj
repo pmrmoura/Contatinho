@@ -17,9 +17,11 @@
 		C187BC1E265FC9DA00B559ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C187BC1D265FC9DA00B559ED /* Assets.xcassets */; };
 		C187BC21265FC9DA00B559ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C187BC20265FC9DA00B559ED /* Preview Assets.xcassets */; };
 		C187BC33265FCAD000B559ED /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187BC32265FCAD000B559ED /* OnboardingView.swift */; };
-		C187BC36265FCD1D00B559ED /* RequestContactAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187BC35265FCD1D00B559ED /* RequestContactAuth.swift */; };
 		C187BC39265FD83900B559ED /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187BC38265FD83900B559ED /* Contact.swift */; };
 		C187BC3C265FD90600B559ED /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187BC3B265FD90600B559ED /* ContactViewModel.swift */; };
+		C187BC40265FE81000B559ED /* SelectContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187BC3F265FE81000B559ED /* SelectContactsView.swift */; };
+		C1D791932661162F00029EE9 /* ConfirmRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D791922661162F00029EE9 /* ConfirmRegistration.swift */; };
+		C1D791952661164500029EE9 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D791942661164500029EE9 /* QRCodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,9 +81,11 @@
 		C187BC22265FC9DA00B559ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C187BC23265FC9DA00B559ED /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		C187BC32265FCAD000B559ED /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		C187BC35265FCD1D00B559ED /* RequestContactAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestContactAuth.swift; sourceTree = "<group>"; };
 		C187BC38265FD83900B559ED /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		C187BC3B265FD90600B559ED /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		C187BC3F265FE81000B559ED /* SelectContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectContactsView.swift; sourceTree = "<group>"; };
+		C1D791922661162F00029EE9 /* ConfirmRegistration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmRegistration.swift; sourceTree = "<group>"; };
+		C1D791942661164500029EE9 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +132,6 @@
 			children = (
 				C187BC3A265FD8FC00B559ED /* ViewModel */,
 				C187BC37265FD82E00B559ED /* Model */,
-				C187BC34265FCD0D00B559ED /* Helpers */,
 				C187BC31265FCA9D00B559ED /* View */,
 				C187BC13265FC9D900B559ED /* ContatinhoApp.swift */,
 				C187BC17265FC9D900B559ED /* NotificationController.swift */,
@@ -154,16 +157,11 @@
 			isa = PBXGroup;
 			children = (
 				C187BC32265FCAD000B559ED /* OnboardingView.swift */,
+				C187BC3F265FE81000B559ED /* SelectContactsView.swift */,
+				C1D791922661162F00029EE9 /* ConfirmRegistration.swift */,
+				C1D791942661164500029EE9 /* QRCodeView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		C187BC34265FCD0D00B559ED /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				C187BC35265FCD1D00B559ED /* RequestContactAuth.swift */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		C187BC37265FD82E00B559ED /* Model */ = {
@@ -308,12 +306,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C187BC40265FE81000B559ED /* SelectContactsView.swift in Sources */,
 				C187BC18265FC9D900B559ED /* NotificationController.swift in Sources */,
+				C1D791952661164500029EE9 /* QRCodeView.swift in Sources */,
 				C187BC3C265FD90600B559ED /* ContactViewModel.swift in Sources */,
 				C187BC1C265FC9D900B559ED /* ComplicationController.swift in Sources */,
 				C187BC14265FC9D900B559ED /* ContatinhoApp.swift in Sources */,
 				C187BC33265FCAD000B559ED /* OnboardingView.swift in Sources */,
-				C187BC36265FCD1D00B559ED /* RequestContactAuth.swift in Sources */,
+				C1D791932661162F00029EE9 /* ConfirmRegistration.swift in Sources */,
 				C187BC1A265FC9D900B559ED /* NotificationView.swift in Sources */,
 				C187BC39265FD83900B559ED /* Contact.swift in Sources */,
 			);

@@ -10,16 +10,14 @@ import Contacts
 class ContactViewModel: ObservableObject {
     @Published var contacts: [Contact] = []
     
-    init() {
-        permissions()
-    }
+    @Published var authorization = CNContactStore.authorizationStatus(for: .contacts)
     
     public func requestContactAccess() {
         CNContactStore.authorizationStatus(for: .contacts)
 
         let store = CNContactStore()
         store.requestAccess(for: .contacts, completionHandler: {success, error in
-            
+            self.permissions()
         })
     }
 
@@ -31,7 +29,9 @@ class ContactViewModel: ObservableObject {
             CNContactIdentifierKey,
             CNContactGivenNameKey,
             CNContactFamilyNameKey,
-            CNContactPhoneNumbersKey
+            CNContactPhoneNumbersKey,
+            CNContactEmailAddressesKey,
+            CNContactPostalAddressesKey
         ]
         as [CNKeyDescriptor]
         
@@ -58,6 +58,19 @@ class ContactViewModel: ObservableObject {
             }
         case .notDetermined, .denied, .restricted:
             requestContactAccess()
+        @unknown default:
+            fatalError()
+        }
+    }
+    
+    func getCurrentAuthStatus() -> String {
+        switch CNContactStore.authorizationStatus(for: .contacts) {
+        case .authorized:
+            return "authorized"
+        case .notDetermined, .denied, .restricted:
+            return "forbidden"
+        @unknown default:
+            fatalError()
         }
     }
 }
