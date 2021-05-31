@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Contatinho' do
+  
+  pod 'EFQRCode', '~> 6.1.0'
+
+end
+
+target 'Contatinho WatchKit App' do
+  pod 'EFQRCode', '~> 6.1.0'
+end
+
+target 'Contatinho WatchKit Extension' do
+  pod 'EFQRCode', '~> 6.1.0'
+end

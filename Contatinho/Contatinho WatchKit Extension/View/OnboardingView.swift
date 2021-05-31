@@ -21,9 +21,7 @@ struct OnboardingView: View {
                 isActive: $goToSelectContactsView,
                 label: {
                         Text("Tenho sim")
-                }).onTapGesture {
-                    viewModel.permissions()
-                }
+                })
 
         }.onAppear(perform: {
             switch viewModel.getCurrentAuthStatus() {

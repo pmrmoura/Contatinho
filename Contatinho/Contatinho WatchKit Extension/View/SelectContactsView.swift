@@ -18,16 +18,17 @@ struct SelectContactsView: View {
                         destination: ConfirmRegistration(name: contact.firstName),
                         label: {
                             Text(contact.firstName + " " + contact.lastName)
-                        })
+                        }
+                    )
                 }
             }
         }
         .navigationBarHidden(true)
+        .padding(.leading)
+        .padding(.trailing)
         .onAppear(perform: {
             self.viewModel.permissions()
         })
-        .padding(.leading)
-        .padding(.trailing)
     }
 }
 

@@ -8,29 +8,37 @@
 import SwiftUI
 
 struct ConfirmRegistration: View {
+    @Environment(\.presentationMode) var presentationMode
     @State var name: String
+    @State var backFromQRCodeView = false
     var body: some View {
         ScrollView{
             VStack {
                 Text("Tudo certo")
                     .font(.title3)
+                
                 Text("👍")
                     .font(.title2)
-                Text("Cartão \(name) registrado.")
+                
+                Text("Cartão \(name) selecionado.")
                     .multilineTextAlignment(.center)
+                
                 NavigationLink(
-                    destination: QRCodeView(),
+                    destination: QRCodeView(backFromQRCodeView: $backFromQRCodeView),
                     label: {
                         Text("Usar QRCode")
                     })
-                Button(action: {print("oi")}, label: {
-                    Text("Refazer registro")
-                })
+                    .padding()
             }
         }
         .navigationBarHidden(false)
         .padding(.leading)
         .padding(.trailing)
+        .onAppear(perform: {
+            if (backFromQRCodeView) {
+                presentationMode.wrappedValue.dismiss()
+            }
+        })
     }
 }
 
