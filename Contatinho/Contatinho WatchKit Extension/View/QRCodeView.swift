@@ -11,8 +11,8 @@ import Contacts
 struct QRCodeView: View {
     @Environment(\.presentationMode) var presentationMode
     @Binding var backFromQRCodeView: Bool
-    let contact: Contact
     @StateObject var viewModel: QRCodeViewModel = QRCodeViewModel()
+    let contact: Contact
     var body: some View {
         ScrollView {
             VStack {

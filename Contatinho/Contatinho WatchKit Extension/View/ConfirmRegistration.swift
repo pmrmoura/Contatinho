@@ -31,7 +31,6 @@ struct ConfirmRegistration: View {
                 }
                 
         }
-        .navigationBarHidden(false)
         .padding(.leading)
         .padding(.trailing)
         .onAppear(perform: {
@@ -41,9 +40,3 @@ struct ConfirmRegistration: View {
         })
     }
 }
-
-//struct ConfirmRegistration_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ConfirmRegistration()
-//    }
-//}

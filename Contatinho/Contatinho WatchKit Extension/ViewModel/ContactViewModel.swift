@@ -22,6 +22,7 @@ class ContactViewModel: ObservableObject {
     }
 
     func getAllContacts(_ completion: @escaping(Result<[Contact], Error>) -> Void) {
+        var contacts: [Contact] = []
         let container = CNContactStore().defaultContainerIdentifier()
         let predicate = CNContact.predicateForContactsInContainer(withIdentifier: container)
         let descriptor =
@@ -34,13 +35,27 @@ class ContactViewModel: ObservableObject {
             CNContactPostalAddressesKey
         ]
         as [CNKeyDescriptor]
+        let dede = CNContactFetchRequest(keysToFetch: descriptor)
+        dede.predicate = predicate
         
         do {
-            let contacts = try CNContactStore().unifiedContacts(matching: predicate, keysToFetch: descriptor)
-            completion(.success(contacts.map{.init(contact: $0)}))
+            try CNContactStore().enumerateContacts(with: dede) { con, stop in
+                let pedro: Contact = .init(contact: con)
+                contacts.append(pedro)
+            }
+            contacts = contacts.sorted(by: { $0.firstName < $1.firstName})
+            completion(.success(contacts))
         } catch {
+            print("erro")
             completion(.failure(error))
         }
+        
+//        do {
+//            let contacts = try CNContactStore().unifiedContacts(matching: predicate, keysToFetch: descriptor)
+//            completion(.success(contacts.map{.init(contact: $0)}))
+//        } catch {
+//            completion(.failure(error))
+//        }
     }
     
     func permissions() {
