@@ -12,31 +12,35 @@ struct OnboardingView3: View {
     @State var goToSelectContactsView: Bool = false
     
     var body: some View {
-        
-        VStack {
-            Image("alienBG")
-            Text("PRONTO PARA FAZER CONTATO?")
-                .fixedSize(horizontal: false, vertical: true)
-                
-            NavigationLink(
-                destination: SelectContactsView(viewModel: viewModel),
-                isActive: $goToSelectContactsView,
-                label: {
-                    Text("Começar")
-                        .fontWeight(.bold)
-                            
-                })
-                .background(Color("alienGreen"))
-                .cornerRadius(10.0)
+        ScrollView {
+            VStack {
+                Image("alienBG")
 
-        }.onAppear(perform: {
-            switch viewModel.getCurrentAuthStatus() {
-            case "authorized":
-                goToSelectContactsView = true
-            default:
-                goToSelectContactsView = false
-            }
-        })
+                Text("PRONTO PARA FAZER CONTATO?")
+                    .fixedSize(horizontal: false, vertical: true)
+                    .multilineTextAlignment(.center)
+                    .font(Font.custom("FPDPressure-SemiBold", size: 12))
+                    
+                NavigationLink(
+                    destination: SelectContactsView(viewModel: viewModel),
+                    isActive: $goToSelectContactsView,
+                    label: {
+                        Text("Começar")
+                            .fontWeight(.bold)
+                                
+                    })
+                    .background(Color("alienGreen"))
+                    .cornerRadius(10.0)
+
+            }.onAppear(perform: {
+                switch viewModel.getCurrentAuthStatus() {
+                case "authorized":
+                    goToSelectContactsView = true
+                default:
+                    goToSelectContactsView = false
+                }
+            })
+        }
     }
 }
 

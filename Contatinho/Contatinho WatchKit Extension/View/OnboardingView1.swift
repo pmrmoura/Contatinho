@@ -11,18 +11,23 @@ struct OnboardingView1: View {
     @State var goToOnboarding2: Bool = false
     
     var body: some View {
-        VStack {
-            Image("alienBG")
-            Text("OLÁ TERRAQUEO! COMPARTILHAR CONTATOS NUNCA FOI TÃO FÁCIL...")
-                .fixedSize(horizontal: false, vertical: true)
-            HStack{
-                Spacer(minLength: 100)
+        ScrollView {
+            VStack {
+                Image("alienBG")
+                Text("OLÁ TERRAQUEO! COMPARTILHAR CONTATOS NUNCA FOI TÃO FÁCIL...")
+                    .fixedSize(horizontal: false, vertical: true)
+                    .multilineTextAlignment(.center)
+                    .font(Font.custom("FPDPressure-SemiBold", size: 12))
                 NavigationLink(
                     destination: OnboardingView2(),
                     isActive: $goToOnboarding2,
                     label: {
-                        Image("nextButton")
+                        Text("Continuar")
+                            .fontWeight(.bold)
+                                
                     })
+                    .background(Color("alienGreen"))
+                    .cornerRadius(10.0)
             }
         }
     }

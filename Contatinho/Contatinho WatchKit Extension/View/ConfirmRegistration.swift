@@ -15,16 +15,19 @@ struct ConfirmRegistration: View {
         ScrollView{
                 VStack {
                     Image("alienBG")
-                    Text("TUDO CERTO! CONTATO \(contact.firstName) SELECIONADO.")
+                    Text("TUDO CERTO! CONTATO \((contact.firstName).uppercased()) SELECIONADO.")
                         .fixedSize(horizontal: false, vertical: true)
-                    HStack{
-                        Spacer(minLength: 100)
+                        .multilineTextAlignment(.center)
+                        .font(Font.custom("FPDPressure-SemiBold", size: 12))
                         NavigationLink(
                             destination: QRCodeView(backFromQRCodeView: $backFromQRCodeView, contact: contact),
                             label: {
-                                Image("nextButton")
+                                Text("Usar QRCode")
+                                    .fontWeight(.bold)
+                                        
                             })
-                    }
+                            .background(Color("alienGreen"))
+                            .cornerRadius(10.0)
                 }
                 
         }

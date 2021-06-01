@@ -8,10 +8,23 @@
 import SwiftUI
 
 struct OnboardingView: View {
-
+    @StateObject var viewModel = ContactViewModel()
+    @State var auth = ""
     var body: some View {
-            
-        OnboardingView1()
+        ZStack {
+            if auth == "" {
+                OnboardingView1()
+            } else {
+                OnboardingView3()
+            }
+        }.onAppear(perform: {
+            switch viewModel.getCurrentAuthStatus() {
+            case "authorized":
+                auth = "authorized"
+            default:
+                auth = ""
+            }
+        })
     }
 }
 

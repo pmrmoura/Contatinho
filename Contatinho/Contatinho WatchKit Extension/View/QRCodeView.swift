@@ -14,26 +14,28 @@ struct QRCodeView: View {
     let contact: Contact
     @StateObject var viewModel: QRCodeViewModel = QRCodeViewModel()
     var body: some View {
-        VStack {
-            
-            Image(viewModel.generateQRCode(contact: contact)!, scale: 2.0, orientation: .up, label: Text("oi"))
-                .resizable()
+        ScrollView {
+            VStack {
+                
+                Image(viewModel.generateQRCode(contact: contact)!, scale: 2.0, orientation: .up, label: Text("oi"))
+                    .resizable()
+                    .scaledToFit()
+                    .padding()
+
+                Button(action: {
+                    self.backFromQRCodeView = true
+                    self.presentationMode.wrappedValue.dismiss()
+    
+                }, label: {
+                    Text("Refazer registro")
+                        .fontWeight(.bold)
+                })
+                .background(Color("alienGreen"))
+                .cornerRadius(10.0)
                 .scaledToFit()
                 .padding()
-
-            Button(action: {
-                self.backFromQRCodeView = true
-                self.presentationMode.wrappedValue.dismiss()
-                
-            }, label: {
-                Text("Refazer registro")
-                    .fontWeight(.bold)
-            })
-            .background(Color("alienGreen"))
-            .cornerRadius(10.0)
-            .scaledToFit()
-            .padding()
+            }
+            .navigationBarHidden(true)
         }
-        .navigationBarHidden(true)
     }
 }

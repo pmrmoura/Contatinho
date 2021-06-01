@@ -31,9 +31,3 @@ struct SelectContactsView: View {
         })
     }
 }
-
-//struct SelectContactsView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        SelectContactsView(viewModel: <#ContactViewModel#>)
-//    }
-//}
