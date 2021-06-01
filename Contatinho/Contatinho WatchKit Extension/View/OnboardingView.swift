@@ -9,26 +9,20 @@ import SwiftUI
 
 struct OnboardingView: View {
     @StateObject var viewModel = ContactViewModel()
-    @State var goToSelectContactsView: Bool = false
+    @State var auth = ""
     var body: some View {
-        VStack {
-            Text("Para começar você precisar ter seu cartão registrado no contato")
-                .padding()
-            Spacer()
-
-            NavigationLink(
-                destination: SelectContactsView(viewModel: viewModel),
-                isActive: $goToSelectContactsView,
-                label: {
-                        Text("Tenho sim")
-                })
-
+        ZStack {
+            if auth == "" {
+                OnboardingView1()
+            } else {
+                OnboardingView3()
+            }
         }.onAppear(perform: {
             switch viewModel.getCurrentAuthStatus() {
             case "authorized":
-                goToSelectContactsView = true
+                auth = "authorized"
             default:
-                goToSelectContactsView = false
+                auth = ""
             }
         })
     }

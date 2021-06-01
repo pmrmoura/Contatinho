@@ -8,7 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		06DFDA6D5CBB5E15F3A2997B /* libPods-Contatinho.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD00BFBF6C993A3CA63B3E74 /* libPods-Contatinho.a */; };
+		AC397DE426665CF400B8E883 /* OnboardingView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC397DE326665CF400B8E883 /* OnboardingView1.swift */; };
+		AC397DE7266667D500B8E883 /* OnboardingView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC397DE6266667D500B8E883 /* OnboardingView2.swift */; };
+		AC397DE926666E0C00B8E883 /* OnboardingView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC397DE826666E0C00B8E883 /* OnboardingView3.swift */; };
 		B1E29A6F4CD04D76D457C232 /* libPods-Contatinho WatchKit Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BBD5DD8D709F8A1376B432 /* libPods-Contatinho WatchKit Extension.a */; };
+		C16E105A26667E9700C16CE2 /* FPDPressure-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C16E105926667E9600C16CE2 /* FPDPressure-SemiBold.otf */; };
+		C16E105B26667ED300C16CE2 /* FPDPressure-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C16E105926667E9600C16CE2 /* FPDPressure-SemiBold.otf */; };
+		C16E105C26667ED400C16CE2 /* FPDPressure-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C16E105926667E9600C16CE2 /* FPDPressure-SemiBold.otf */; };
 		C17DBD852666507B0090D097 /* QRCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17DBD842666507B0090D097 /* QRCodeViewModel.swift */; };
 		C187BC03265FC9D800B559ED /* Contatinho WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C187BC02265FC9D800B559ED /* Contatinho WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C187BC08265FC9D900B559ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C187BC07265FC9D900B559ED /* Assets.xcassets */; };
@@ -77,7 +83,11 @@
 		4E7637EAD912F1C3B6A998A8 /* Pods-Contatinho WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contatinho WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-Contatinho WatchKit App/Pods-Contatinho WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 		5741D80FD3CAFC69DBDACCEF /* Pods-Contatinho.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contatinho.release.xcconfig"; path = "Target Support Files/Pods-Contatinho/Pods-Contatinho.release.xcconfig"; sourceTree = "<group>"; };
 		6A9A69448240BD383D277241 /* Pods-Contatinho WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contatinho WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-Contatinho WatchKit Extension/Pods-Contatinho WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		AC397DE326665CF400B8E883 /* OnboardingView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView1.swift; sourceTree = "<group>"; };
+		AC397DE6266667D500B8E883 /* OnboardingView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView2.swift; sourceTree = "<group>"; };
+		AC397DE826666E0C00B8E883 /* OnboardingView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView3.swift; sourceTree = "<group>"; };
 		AD00BFBF6C993A3CA63B3E74 /* libPods-Contatinho.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Contatinho.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16E105926667E9600C16CE2 /* FPDPressure-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FPDPressure-SemiBold.otf"; path = "../../../../../Downloads/FPD_pressure/Fonts/otf/FPDPressure-SemiBold.otf"; sourceTree = "<group>"; };
 		C17DBD842666507B0090D097 /* QRCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewModel.swift; sourceTree = "<group>"; };
 		C187BBFE265FC9D700B559ED /* Contatinho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contatinho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C187BC02265FC9D800B559ED /* Contatinho WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contatinho WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +186,7 @@
 		C187BC12265FC9D900B559ED /* Contatinho WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				C16E105926667E9600C16CE2 /* FPDPressure-SemiBold.otf */,
 				C187BC3A265FD8FC00B559ED /* ViewModel */,
 				C187BC37265FD82E00B559ED /* Model */,
 				C187BC31265FCA9D00B559ED /* View */,
@@ -203,6 +214,9 @@
 			isa = PBXGroup;
 			children = (
 				C187BC32265FCAD000B559ED /* OnboardingView.swift */,
+				AC397DE326665CF400B8E883 /* OnboardingView1.swift */,
+				AC397DE6266667D500B8E883 /* OnboardingView2.swift */,
+				AC397DE826666E0C00B8E883 /* OnboardingView3.swift */,
 				C187BC3F265FE81000B559ED /* SelectContactsView.swift */,
 				C1D791922661162F00029EE9 /* ConfirmRegistration.swift */,
 				C1D791942661164500029EE9 /* QRCodeView.swift */,
@@ -341,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16E105C26667ED400C16CE2 /* FPDPressure-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16E105B26667ED300C16CE2 /* FPDPressure-SemiBold.otf in Resources */,
 				C187BC08265FC9D900B559ED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +374,7 @@
 			files = (
 				C187BC21265FC9DA00B559ED /* Preview Assets.xcassets in Resources */,
 				C187BC1E265FC9DA00B559ED /* Assets.xcassets in Resources */,
+				C16E105A26667E9700C16CE2 /* FPDPressure-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +454,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC397DE7266667D500B8E883 /* OnboardingView2.swift in Sources */,
+				AC397DE926666E0C00B8E883 /* OnboardingView3.swift in Sources */,
 				C17DBD852666507B0090D097 /* QRCodeViewModel.swift in Sources */,
 				C187BC40265FE81000B559ED /* SelectContactsView.swift in Sources */,
 				C187BC18265FC9D900B559ED /* NotificationController.swift in Sources */,
@@ -444,6 +463,7 @@
 				C187BC3C265FD90600B559ED /* ContactViewModel.swift in Sources */,
 				C187BC1C265FC9D900B559ED /* ComplicationController.swift in Sources */,
 				C187BC14265FC9D900B559ED /* ContatinhoApp.swift in Sources */,
+				AC397DE426665CF400B8E883 /* OnboardingView1.swift in Sources */,
 				C187BC33265FCAD000B559ED /* OnboardingView.swift in Sources */,
 				C1D791932661162F00029EE9 /* ConfirmRegistration.swift in Sources */,
 				C187BC1A265FC9D900B559ED /* NotificationView.swift in Sources */,
