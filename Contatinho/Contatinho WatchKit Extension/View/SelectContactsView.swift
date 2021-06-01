@@ -15,16 +15,23 @@ struct SelectContactsView: View {
             VStack {
                 Text("Selecione o contato")
 
-                LazyVStack {
-                    ForEach(viewModel.contacts) { contact in
-                        ZStack {
-                            NavigationLink(
-                                destination: ConfirmRegistration(contact: contact),
-                                label: {
-                                    Text(contact.firstName + " " + contact.lastName)
-                                }
-                            )
+                if viewModel.contacts.count > 0 {
+                    LazyVStack {
+                        ForEach(viewModel.contacts) { contact in
+                            ZStack {
+                                NavigationLink(
+                                    destination: ConfirmRegistration(contact: contact),
+                                    label: {
+                                        Text(contact.firstName + " " + contact.lastName)
+                                    }
+                                )
+                            }
                         }
+                    }
+                }
+                else {
+                    VStack {
+                        Text("Nenhum contato disponível")
                     }
                 }
             }

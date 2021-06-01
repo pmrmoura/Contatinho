@@ -14,3 +14,17 @@ struct Contact: Identifiable {
     var phone: String { contact.phoneNumbers.map(\.value).first!.stringValue }
     let contact: CNContact
 }
+
+enum PermissionError: Identifiable {
+    var id: String { UUID().uuidString }
+    case userError
+    case fetchError(_: Error)
+    var description: String {
+        switch self {
+        case .userError:
+            return "Permita o nosso acesso aos contatos nos ajustes"
+        case .fetchError(let error):
+            return error.localizedDescription
+        }
+    }
+}

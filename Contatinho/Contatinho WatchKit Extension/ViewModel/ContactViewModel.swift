@@ -6,18 +6,33 @@
 //
 
 import Contacts
+import Foundation
 
 class ContactViewModel: ObservableObject {
     @Published var contacts: [Contact] = []
     
+    @Published var permissionErrors: PermissionError? = .none
+    
     @Published var authorization = CNContactStore.authorizationStatus(for: .contacts)
+    
+    func openSettings() {
+        self.permissionErrors = .none
+    }
     
     public func requestContactAccess() {
         CNContactStore.authorizationStatus(for: .contacts)
 
         let store = CNContactStore()
-        store.requestAccess(for: .contacts, completionHandler: {success, error in
-            self.permissions()
+        store.requestAccess(for: .contacts, completionHandler: { [weak self] success, error in
+            guard let self = self else { return }
+            switch success {
+            case true:
+                self.permissions()
+            default:
+                DispatchQueue.main.async {
+                    self.permissionErrors = .userError
+                }
+            }
         })
     }
 
@@ -35,13 +50,13 @@ class ContactViewModel: ObservableObject {
             CNContactPostalAddressesKey
         ]
         as [CNKeyDescriptor]
-        let dede = CNContactFetchRequest(keysToFetch: descriptor)
-        dede.predicate = predicate
+        let fetchReq = CNContactFetchRequest(keysToFetch: descriptor)
+        fetchReq.predicate = predicate
         
         do {
-            try CNContactStore().enumerateContacts(with: dede) { con, stop in
-                let pedro: Contact = .init(contact: con)
-                contacts.append(pedro)
+            try CNContactStore().enumerateContacts(with: fetchReq) { con, stop in
+                let newContact: Contact = .init(contact: con)
+                contacts.append(newContact)
             }
             contacts = contacts.sorted(by: { $0.firstName < $1.firstName})
             completion(.success(contacts))
@@ -49,13 +64,6 @@ class ContactViewModel: ObservableObject {
             print("erro")
             completion(.failure(error))
         }
-        
-//        do {
-//            let contacts = try CNContactStore().unifiedContacts(matching: predicate, keysToFetch: descriptor)
-//            completion(.success(contacts.map{.init(contact: $0)}))
-//        } catch {
-//            completion(.failure(error))
-//        }
     }
     
     func permissions() {

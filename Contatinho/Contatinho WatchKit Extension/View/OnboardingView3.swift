@@ -32,7 +32,8 @@ struct OnboardingView3: View {
                     .background(Color("alienGreen"))
                     .cornerRadius(10.0)
 
-            }.onAppear(perform: {
+            }
+            .onAppear(perform: {
                 switch viewModel.getCurrentAuthStatus() {
                 case "authorized":
                     goToSelectContactsView = true
@@ -40,6 +41,9 @@ struct OnboardingView3: View {
                     goToSelectContactsView = false
                 }
             })
+            .alert(item: $viewModel.permissionErrors) { _ in
+                Alert(title: Text(viewModel.permissionErrors?.description ?? "Unknown"), message: Text(""))
+            }
         }
     }
 }
