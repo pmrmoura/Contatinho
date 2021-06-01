@@ -27,7 +27,11 @@ struct QRCodeView: View {
                 
             }, label: {
                 Text("Refazer registro")
+                    .fontWeight(.bold)
             })
+            .background(Color("alienGreen"))
+            .cornerRadius(10.0)
+            .scaledToFit()
             .padding()
         }
         .navigationBarHidden(true)

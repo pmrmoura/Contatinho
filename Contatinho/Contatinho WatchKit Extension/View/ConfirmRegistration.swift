@@ -13,23 +13,20 @@ struct ConfirmRegistration: View {
     @State var backFromQRCodeView = false
     var body: some View {
         ScrollView{
-            VStack {
-                Text("Tudo certo")
-                    .font(.title3)
+                VStack {
+                    Image("alienBG")
+                    Text("TUDO CERTO! CONTATO \(contact.firstName) SELECIONADO.")
+                        .fixedSize(horizontal: false, vertical: true)
+                    HStack{
+                        Spacer(minLength: 100)
+                        NavigationLink(
+                            destination: QRCodeView(backFromQRCodeView: $backFromQRCodeView, contact: contact),
+                            label: {
+                                Image("nextButton")
+                            })
+                    }
+                }
                 
-                Text("👍")
-                    .font(.title2)
-                
-                Text("Cartão \(contact.firstName) selecionado.")
-                    .multilineTextAlignment(.center)
-                
-                NavigationLink(
-                    destination: QRCodeView(backFromQRCodeView: $backFromQRCodeView, contact: contact),
-                    label: {
-                        Text("Usar QRCode")
-                    })
-                    .padding()
-            }
         }
         .navigationBarHidden(false)
         .padding(.leading)
