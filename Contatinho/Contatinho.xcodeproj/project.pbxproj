@@ -11,10 +11,10 @@
 		AC397DE426665CF400B8E883 /* OnboardingView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC397DE326665CF400B8E883 /* OnboardingView1.swift */; };
 		AC397DE7266667D500B8E883 /* OnboardingView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC397DE6266667D500B8E883 /* OnboardingView2.swift */; };
 		AC397DE926666E0C00B8E883 /* OnboardingView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC397DE826666E0C00B8E883 /* OnboardingView3.swift */; };
+		AC397DEB2666844C00B8E883 /* FPDPressure-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC397DEA2666844C00B8E883 /* FPDPressure-SemiBold.otf */; };
+		AC397DEC2666844C00B8E883 /* FPDPressure-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC397DEA2666844C00B8E883 /* FPDPressure-SemiBold.otf */; };
+		AC397DED2666844C00B8E883 /* FPDPressure-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC397DEA2666844C00B8E883 /* FPDPressure-SemiBold.otf */; };
 		B1E29A6F4CD04D76D457C232 /* libPods-Contatinho WatchKit Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BBD5DD8D709F8A1376B432 /* libPods-Contatinho WatchKit Extension.a */; };
-		C16E105A26667E9700C16CE2 /* FPDPressure-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C16E105926667E9600C16CE2 /* FPDPressure-SemiBold.otf */; };
-		C16E105B26667ED300C16CE2 /* FPDPressure-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C16E105926667E9600C16CE2 /* FPDPressure-SemiBold.otf */; };
-		C16E105C26667ED400C16CE2 /* FPDPressure-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C16E105926667E9600C16CE2 /* FPDPressure-SemiBold.otf */; };
 		C17DBD852666507B0090D097 /* QRCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17DBD842666507B0090D097 /* QRCodeViewModel.swift */; };
 		C187BC03265FC9D800B559ED /* Contatinho WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C187BC02265FC9D800B559ED /* Contatinho WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C187BC08265FC9D900B559ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C187BC07265FC9D900B559ED /* Assets.xcassets */; };
@@ -86,8 +86,8 @@
 		AC397DE326665CF400B8E883 /* OnboardingView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView1.swift; sourceTree = "<group>"; };
 		AC397DE6266667D500B8E883 /* OnboardingView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView2.swift; sourceTree = "<group>"; };
 		AC397DE826666E0C00B8E883 /* OnboardingView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView3.swift; sourceTree = "<group>"; };
+		AC397DEA2666844C00B8E883 /* FPDPressure-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FPDPressure-SemiBold.otf"; sourceTree = "<group>"; };
 		AD00BFBF6C993A3CA63B3E74 /* libPods-Contatinho.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Contatinho.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C16E105926667E9600C16CE2 /* FPDPressure-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FPDPressure-SemiBold.otf"; path = "../../../../../Downloads/FPD_pressure/Fonts/otf/FPDPressure-SemiBold.otf"; sourceTree = "<group>"; };
 		C17DBD842666507B0090D097 /* QRCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewModel.swift; sourceTree = "<group>"; };
 		C187BBFE265FC9D700B559ED /* Contatinho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contatinho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C187BC02265FC9D800B559ED /* Contatinho WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contatinho WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,7 +186,7 @@
 		C187BC12265FC9D900B559ED /* Contatinho WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				C16E105926667E9600C16CE2 /* FPDPressure-SemiBold.otf */,
+				AC397DEA2666844C00B8E883 /* FPDPressure-SemiBold.otf */,
 				C187BC3A265FD8FC00B559ED /* ViewModel */,
 				C187BC37265FD82E00B559ED /* Model */,
 				C187BC31265FCA9D00B559ED /* View */,
@@ -355,7 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C16E105C26667ED400C16CE2 /* FPDPressure-SemiBold.otf in Resources */,
+				AC397DEB2666844C00B8E883 /* FPDPressure-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,8 +363,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C16E105B26667ED300C16CE2 /* FPDPressure-SemiBold.otf in Resources */,
 				C187BC08265FC9D900B559ED /* Assets.xcassets in Resources */,
+				AC397DEC2666844C00B8E883 /* FPDPressure-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +374,7 @@
 			files = (
 				C187BC21265FC9DA00B559ED /* Preview Assets.xcassets in Resources */,
 				C187BC1E265FC9DA00B559ED /* Assets.xcassets in Resources */,
-				C16E105A26667E9700C16CE2 /* FPDPressure-SemiBold.otf in Resources */,
+				AC397DED2666844C00B8E883 /* FPDPressure-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
