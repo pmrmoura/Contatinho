@@ -1,0 +1,6 @@
+module Pods_Contatinho_WatchKit_App {
+  umbrella header "Pods-Contatinho WatchKit App-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,20 @@
+PODS:
+  - EFQRCode (6.1.0):
+    - swift_qrcodejs (~> 2.2.2)
+  - swift_qrcodejs (2.2.2)
+
+DEPENDENCIES:
+  - EFQRCode
+
+SPEC REPOS:
+  trunk:
+    - EFQRCode
+    - swift_qrcodejs
+
+SPEC CHECKSUMS:
+  EFQRCode: 994654b3ad1657ab751b92422cef8b8f7d1b1496
+  swift_qrcodejs: 8ea2777b8d6c2b69c8706fac6cda93ee9c72ce5d
+
+PODFILE CHECKSUM: 81159d5f0fb57e3e0e39f3e4dec876a7b24f2a0b
+
+COCOAPODS: 1.10.1

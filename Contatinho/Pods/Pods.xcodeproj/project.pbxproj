@@ -1,0 +1,1349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00757B3EC6FC74E4785C027256C1593A /* QRPolynomial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260DB49A477FE0F3B45D8A44AE1652AB /* QRPolynomial.swift */; };
+		013E6052571D34E914DA1A924711FACF /* EFQRCode-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 207ABA50D2DD8FF07109F29DAC2242A2 /* EFQRCode-iOS-dummy.m */; };
+		052DAD3C187E8CFE9BD66916D73C42D1 /* QRCodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC3D09320EBF0388C86697884FC49F4 /* QRCodeError.swift */; };
+		0537C0002CC58A52DC96CC53B18590BE /* NSImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A7C43EC00B4964C6DEE08144506999 /* NSImage+.swift */; };
+		05D95DB1B5B1D2AB99FBD01573F51CFA /* Pods-Contatinho-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DA99197A739460F7D8ACE211E6C0A2 /* Pods-Contatinho-dummy.m */; };
+		0F1B25DF8C683D773988FF8274BFD9E1 /* CIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0C726283D6B0002E8200B9F1E643E /* CIImage+.swift */; };
+		1136BB843AE64813916B2855E9E9F420 /* QRMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09B4EB6B92836ADDFDDE3C1D7D3D76B /* QRMode.swift */; };
+		18C8CFA779C0CF0B1ED1C6F8BCB762FA /* EFQRCode+ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0166926EB22834E27B81AAD0952FA72 /* EFQRCode+ObjC.swift */; };
+		19214BCC2B08CEF614F8A8395F38AC71 /* swift_qrcodejs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3A7CB612226A76E4DA324100ACAE9F /* swift_qrcodejs-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2296A4116A178DE42EC96DA705B19A7C /* Pods-Contatinho WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B7EF18EA681B1E90B3FF16C33B1291 /* Pods-Contatinho WatchKit Extension-dummy.m */; };
+		24AD0335BEEE7CD96D0D521CA6F92639 /* swift_qrcodejs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B03A7E0BA1B0841BF109FAB6C157B1 /* swift_qrcodejs-dummy.m */; };
+		25C095B813F25D292DE9CAACCF99AE98 /* BinaryInteger+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9B3F57D58C3CAE1D2A793AB8D30B25 /* BinaryInteger+.swift */; };
+		25D24960A9CCA4F164E71F7549092BEC /* QRPatternLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A4FF7BD878A11722842C36CAEE8C9C /* QRPatternLocator.swift */; };
+		2C231409DEE65BE5D98B90D3BBD5672F /* EFQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1B7655D6B19DEDFC48D38B7CF4AF95 /* EFQRCode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2FD132C85980A1B0955B215C839CCDBD /* BinaryFloatingPoint+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF7ECCDCCAB5C878BB5A7DA59D2CE49 /* BinaryFloatingPoint+.swift */; };
+		3B8BB313DCDF57F9F0711FC8542E5721 /* QRBitBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1BD2C93808D819BC2863BF73900F18 /* QRBitBuffer.swift */; };
+		400C6F2E59F1355A89A00A7B29A3078D /* EFQRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704EEFF7433BE525B957B2B8026DDA0 /* EFQRCodeGenerator.swift */; };
+		40364CE1F118C0FB1FC4F068B2BC6F26 /* EFPointShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74A9F228638743ED5BB309672DF4BD2 /* EFPointShape.swift */; };
+		4049BE9A09F9BA049796C1E9EE4DCA0F /* QRCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F8811C0CDE8CFB7928669C7B139DAD /* QRCodeModel.swift */; };
+		45CB7041E94739B5317E75B09F56F4E1 /* CGImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A65BFB40DC5BC1F0F7086F890C2E642 /* CGImage+.swift */; };
+		48396FBA3BD1F831D0B3264009F84821 /* QRErrorCorrectLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A26643D9AA6D9FEA191CEB6E95B49 /* QRErrorCorrectLevel.swift */; };
+		49A802A957EBF86E24ABCF968868E97C /* QR8bitByte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F0D0008FB1E9DEE3CD4DDC6F5FF2A /* QR8bitByte.swift */; };
+		4CAB63B5A194E4397CF4784E0E05C6C1 /* CGColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DB9BCFC5BFAD8310936C56CCE1171 /* CGColor+.swift */; };
+		50F53CC53FE7EFF351A654BF1CA61622 /* CIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395DA43810ED807A642C2AAF091A008E /* CIColor+.swift */; };
+		5177E4BF5110A022D23CE864A842D106 /* NSImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A7C43EC00B4964C6DEE08144506999 /* NSImage+.swift */; };
+		54EC9FACD296A17EB8D4FD1F9B334ACB /* QRMaskPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F13AB5C5EC8ACCB067B30961E5E1AE /* QRMaskPattern.swift */; };
+		5A6B24EEE80BDEE56354D7F07B88D80F /* BinaryInteger+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9B3F57D58C3CAE1D2A793AB8D30B25 /* BinaryInteger+.swift */; };
+		5F54EE9D877097439EB9F1278D87BFFC /* EFQRCode+Migration-v6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A7D03FD363C744371599A366B50855 /* EFQRCode+Migration-v6.swift */; };
+		611EDE739A468928BBE047BF974A5A45 /* CIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0C726283D6B0002E8200B9F1E643E /* CIImage+.swift */; };
+		62EBF008C99D5CF6BE5FD539BACAE4E6 /* EFQRCode+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE7E8D9A7518F73595CCB6A19F16B1 /* EFQRCode+GIF.swift */; };
+		6308C498F03E8D4D0369ECDD8CAC300C /* CGImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A65BFB40DC5BC1F0F7086F890C2E642 /* CGImage+.swift */; };
+		6A1F625702C62537F5EFEE3569ED5414 /* Pods-Contatinho WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD165C3012C17C635E304CCA425DCCA /* Pods-Contatinho WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		714622F9CA987ECE5828802292C2BAAA /* EFQRCode+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE7E8D9A7518F73595CCB6A19F16B1 /* EFQRCode+GIF.swift */; };
+		7466DEE4F78AF511E49D7ABCE7185FED /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317C6858B8A93D75D6604AE1E9704F1B /* UIColor+.swift */; };
+		758A7CD29541343D369AD92A4559C0A6 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CE29F7EE1FCA0F3D5579CE85D0753 /* QRCode.swift */; };
+		776D84C0415802B8D9AD80F0C9A97BD4 /* NSColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8545EDE59BA5C45924383CC17A9CEEA /* NSColor+.swift */; };
+		77EEECE1F349491F41D379BDD39AF0E6 /* EFWatermarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA52D1DB97B14C020D0B00A6320703C /* EFWatermarkMode.swift */; };
+		792D4381C7D4F3CB2A862AFD3F7E0417 /* Pods-Contatinho WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1444B17232919A10D5A5CA512F4FA96 /* Pods-Contatinho WatchKit App-dummy.m */; };
+		7CBE05BB73A88F128A375C85E27F8B4D /* EFQRCode+Migration-v6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A7D03FD363C744371599A366B50855 /* EFQRCode+Migration-v6.swift */; };
+		84E9D75C102A3645620591073F471A09 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA79CCDFF28D8EB012AAE17ACFFD50C /* UIImage+.swift */; };
+		85257E188197F79D0C5F3C1C0CDDF104 /* EFWatermarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA52D1DB97B14C020D0B00A6320703C /* EFWatermarkMode.swift */; };
+		8894B7010B988E6996CED708F234C702 /* EFQRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704EEFF7433BE525B957B2B8026DDA0 /* EFQRCodeGenerator.swift */; };
+		89EC15E5B3A8D640A5035048375B133A /* Pods-Contatinho WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C670E4B1F9D312D86D9575916F69742 /* Pods-Contatinho WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C23C67BDE54D7775E77D93D35B32C19 /* EFUIntPixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F328D69FC125747CE954552FA1BD407C /* EFUIntPixel.swift */; };
+		8C2BF5C420033BABD5FF9B4DB82A38AA /* BCH.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE10CF2D195BF52C91E660BBDF0FD09E /* BCH.swift */; };
+		8CAD32E3EBBFA35297A6092C96D40EDA /* EFQRCodeMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750512A61F96505EBC7656D0DBC899D3 /* EFQRCodeMode.swift */; };
+		91513D80FD2EB8CE3289C28A5A32845B /* CIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395DA43810ED807A642C2AAF091A008E /* CIColor+.swift */; };
+		91F8A4B62EFBB5A6E2F3973854010F85 /* EFQRCode-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA8F693A0532757CE2FD1F9A47433E9 /* EFQRCode-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		99575AED76A8BBC8A95DC0E144DF9BC1 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317C6858B8A93D75D6604AE1E9704F1B /* UIColor+.swift */; };
+		9A25EFBC0EC57DBA10F64E3A2025E30B /* EFUIntPixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F328D69FC125747CE954552FA1BD407C /* EFUIntPixel.swift */; };
+		9FF52C7E953A58008149CC68E0B57879 /* QRMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31D3A147BB67D266B152B7F7E09C991 /* QRMath.swift */; };
+		9FF54E0C6BF6DAD5A71F922AD0E96F7C /* CGColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DB9BCFC5BFAD8310936C56CCE1171 /* CGColor+.swift */; };
+		A35D2254575A5D0F47342AD6AE89F3EF /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA79CCDFF28D8EB012AAE17ACFFD50C /* UIImage+.swift */; };
+		A3AE989DD2602E30A9E75CC6D1260362 /* EFQRCodeRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC6B0B2BDE68262F69A2A90F65AB82 /* EFQRCodeRecognizer.swift */; };
+		A521075B9E4146E153E7D0994FAA2DA1 /* QRCodeSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B0AF2556FF40CD567C86F9FADCFBD29 /* QRCodeSwift.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A72D48A41516A52DDB7967B0D78EFF4C /* EFIntSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0B64026686B9CC078ED8EE849EB64 /* EFIntSize.swift */; };
+		AC957F8EC135AD3A5A1538069F7D2F4F /* EFQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1B7655D6B19DEDFC48D38B7CF4AF95 /* EFQRCode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B232235B8D79EE05CF50CF0FB7719229 /* EFQRCode-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C06CAA44FF38AA60F54FFBB35A074572 /* EFQRCode-iOS-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B761D22A7E1393DEF851B066F4E91532 /* QRRSBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666D0E0B8A9E720EACA21C2C702D3A84 /* QRRSBlock.swift */; };
+		C7619A277F0CB49CE85FD9F2A6A51CDB /* Pods-Contatinho-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B45A3DAB847D61487CD20D433AAF0D /* Pods-Contatinho-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8CE516D778660414923744D045B4B89 /* EFQRCodeRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC6B0B2BDE68262F69A2A90F65AB82 /* EFQRCodeRecognizer.swift */; };
+		CAC52210ABC44850C9723D2280337537 /* EFQRCode+ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0166926EB22834E27B81AAD0952FA72 /* EFQRCode+ObjC.swift */; };
+		CD6365312A382DA3CEB2C4A683FFAFF4 /* EFQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCF27276AA808DD4E347F1FA6C931A /* EFQRCode.swift */; };
+		CFE8F70F29ED2ECB7019242DA163E142 /* QRCodeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB984E8BA2971867573D5064EA0662A /* QRCodeType.swift */; };
+		D3B052E6BA5CE4B7D896DF58B95AC7BA /* BinaryFloatingPoint+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF7ECCDCCAB5C878BB5A7DA59D2CE49 /* BinaryFloatingPoint+.swift */; };
+		D7A03A477C81910883963C1D4CC0F716 /* EFQRCode-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CD714BC8ADE2497432AFC5C459F7FC /* EFQRCode-watchOS-dummy.m */; };
+		E215D56E51D9C64F4C7FB6381E42BC4B /* EFInputCorrectionLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767D925AE4E2B211D74F3E8105BAE854 /* EFInputCorrectionLevel.swift */; };
+		E4DA9180FF939760143D7CB4B0736858 /* NSColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8545EDE59BA5C45924383CC17A9CEEA /* NSColor+.swift */; };
+		E75DB971FE440FF51D4F7742DEB1E471 /* EFInputCorrectionLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767D925AE4E2B211D74F3E8105BAE854 /* EFInputCorrectionLevel.swift */; };
+		ED572C60E7ECA690A456BCF9C363AED7 /* EFQRCodeMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750512A61F96505EBC7656D0DBC899D3 /* EFQRCodeMode.swift */; };
+		F2EC4B981575F8CF79B7475CD8904DA4 /* EFIntSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0B64026686B9CC078ED8EE849EB64 /* EFIntSize.swift */; };
+		F506233ADCF1EF68B7234162B7077C21 /* EFQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCF27276AA808DD4E347F1FA6C931A /* EFQRCode.swift */; };
+		F6A7DBD3DEC79E4BE04F4B1A7752CD31 /* EFPointShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74A9F228638743ED5BB309672DF4BD2 /* EFPointShape.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62BE6F7D71E4EB1BCABCCD951DD327B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CB14E01ACAEF27C132DEC19679E8456;
+			remoteInfo = "EFQRCode-watchOS";
+		};
+		8792BD13AE60455A4721A66393B9E4D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 345DDF896F8EC59B0A489DED760BA579;
+			remoteInfo = swift_qrcodejs;
+		};
+		98E5E9D7E792DA0F4090EE221220DB57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 345DDF896F8EC59B0A489DED760BA579;
+			remoteInfo = swift_qrcodejs;
+		};
+		A7F258F58AAE994A84CDED48202DB400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 345DDF896F8EC59B0A489DED760BA579;
+			remoteInfo = swift_qrcodejs;
+		};
+		AA0D0A2BB377271DC6801907246100E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CB14E01ACAEF27C132DEC19679E8456;
+			remoteInfo = "EFQRCode-watchOS";
+		};
+		ED25E468717302B751D95E9282B98643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4433113F3B699F2B33B1DC95150A93C;
+			remoteInfo = "EFQRCode-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0311F4EA53032D872E29C1D83FB32362 /* EFQRCode-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "EFQRCode-watchOS.debug.xcconfig"; path = "../EFQRCode-watchOS/EFQRCode-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		03AC6B0B2BDE68262F69A2A90F65AB82 /* EFQRCodeRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFQRCodeRecognizer.swift; path = Source/EFQRCodeRecognizer.swift; sourceTree = "<group>"; };
+		03D098A72CB771A05DB0558B293AB5AC /* Pods-Contatinho-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Contatinho-acknowledgements.plist"; sourceTree = "<group>"; };
+		086F0D0008FB1E9DEE3CD4DDC6F5FF2A /* QR8bitByte.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QR8bitByte.swift; path = Sources/QR8bitByte.swift; sourceTree = "<group>"; };
+		0B0AF2556FF40CD567C86F9FADCFBD29 /* QRCodeSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRCodeSwift.h; path = Sources/QRCodeSwift.h; sourceTree = "<group>"; };
+		0CA79CCDFF28D8EB012AAE17ACFFD50C /* UIImage+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+.swift"; path = "Source/UIImage+.swift"; sourceTree = "<group>"; };
+		0D1B7655D6B19DEDFC48D38B7CF4AF95 /* EFQRCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EFQRCode.h; path = Source/EFQRCode.h; sourceTree = "<group>"; };
+		0DA0B64026686B9CC078ED8EE849EB64 /* EFIntSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIntSize.swift; path = Source/EFIntSize.swift; sourceTree = "<group>"; };
+		0DA8F693A0532757CE2FD1F9A47433E9 /* EFQRCode-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EFQRCode-watchOS-umbrella.h"; path = "../EFQRCode-watchOS/EFQRCode-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		112DB9BCFC5BFAD8310936C56CCE1171 /* CGColor+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGColor+.swift"; path = "Source/CGColor+.swift"; sourceTree = "<group>"; };
+		14B45A3DAB847D61487CD20D433AAF0D /* Pods-Contatinho-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Contatinho-umbrella.h"; sourceTree = "<group>"; };
+		1A9B3F57D58C3CAE1D2A793AB8D30B25 /* BinaryInteger+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BinaryInteger+.swift"; path = "Source/BinaryInteger+.swift"; sourceTree = "<group>"; };
+		1C1BD2C93808D819BC2863BF73900F18 /* QRBitBuffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRBitBuffer.swift; path = Sources/QRBitBuffer.swift; sourceTree = "<group>"; };
+		207ABA50D2DD8FF07109F29DAC2242A2 /* EFQRCode-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFQRCode-iOS-dummy.m"; sourceTree = "<group>"; };
+		2164B90B486F592D494AD7060FA2BF78 /* Pods-Contatinho WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Contatinho WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		237175766098673EC8DB095FEC9D0AA7 /* Pods-Contatinho WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Contatinho WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		2545089EFA8035F4A7571EE2797CFE0D /* Pods-Contatinho.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Contatinho.modulemap"; sourceTree = "<group>"; };
+		260DB49A477FE0F3B45D8A44AE1652AB /* QRPolynomial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRPolynomial.swift; path = Sources/QRPolynomial.swift; sourceTree = "<group>"; };
+		28A909905EFE8D1AA67FD94427E2D2E2 /* Pods-Contatinho WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Contatinho WatchKit App.modulemap"; sourceTree = "<group>"; };
+		2989E843CEECD7E72374309F74B18158 /* swift_qrcodejs-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "swift_qrcodejs-prefix.pch"; sourceTree = "<group>"; };
+		2F3A26643D9AA6D9FEA191CEB6E95B49 /* QRErrorCorrectLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRErrorCorrectLevel.swift; path = Sources/QRErrorCorrectLevel.swift; sourceTree = "<group>"; };
+		300232A457594A2142CCD4EBBEAEEE83 /* libswift_qrcodejs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libswift_qrcodejs.a; path = libswift_qrcodejs.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		317C6858B8A93D75D6604AE1E9704F1B /* UIColor+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+.swift"; path = "Source/UIColor+.swift"; sourceTree = "<group>"; };
+		31E9157A96587BED663F69383498B3C5 /* Pods-Contatinho-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Contatinho-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36599492C16CD89BC2313188B7C52F1A /* libPods-Contatinho WatchKit App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Contatinho WatchKit App.a"; path = "libPods-Contatinho WatchKit App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		390F6E627618B7ADEEBEC6911E414E48 /* libEFQRCode-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libEFQRCode-iOS.a"; path = "libEFQRCode-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		395DA43810ED807A642C2AAF091A008E /* CIColor+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CIColor+.swift"; path = "Source/CIColor+.swift"; sourceTree = "<group>"; };
+		3CD6924B3607D44195B422E105D3F483 /* EFQRCode-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "EFQRCode-watchOS.modulemap"; path = "../EFQRCode-watchOS/EFQRCode-watchOS.modulemap"; sourceTree = "<group>"; };
+		3DE51534A523DE9818A6401ABD4BBBA6 /* EFQRCode-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EFQRCode-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		46A7D03FD363C744371599A366B50855 /* EFQRCode+Migration-v6.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EFQRCode+Migration-v6.swift"; path = "Source/EFQRCode+Migration-v6.swift"; sourceTree = "<group>"; };
+		4AB322CFB350B6BD7FEA1D3751706F41 /* Pods-Contatinho.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Contatinho.debug.xcconfig"; sourceTree = "<group>"; };
+		4C670E4B1F9D312D86D9575916F69742 /* Pods-Contatinho WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Contatinho WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
+		567195866E862B881C598A54B3528874 /* Pods-Contatinho.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Contatinho.release.xcconfig"; sourceTree = "<group>"; };
+		61CD714BC8ADE2497432AFC5C459F7FC /* EFQRCode-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EFQRCode-watchOS-dummy.m"; path = "../EFQRCode-watchOS/EFQRCode-watchOS-dummy.m"; sourceTree = "<group>"; };
+		666D0E0B8A9E720EACA21C2C702D3A84 /* QRRSBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRRSBlock.swift; path = Sources/QRRSBlock.swift; sourceTree = "<group>"; };
+		674BBDB177E73FFA8C873B68353F3E40 /* swift_qrcodejs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = swift_qrcodejs.debug.xcconfig; sourceTree = "<group>"; };
+		6A65BFB40DC5BC1F0F7086F890C2E642 /* CGImage+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGImage+.swift"; path = "Source/CGImage+.swift"; sourceTree = "<group>"; };
+		6DB984E8BA2971867573D5064EA0662A /* QRCodeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeType.swift; path = Sources/QRCodeType.swift; sourceTree = "<group>"; };
+		71B03A7E0BA1B0841BF109FAB6C157B1 /* swift_qrcodejs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "swift_qrcodejs-dummy.m"; sourceTree = "<group>"; };
+		750512A61F96505EBC7656D0DBC899D3 /* EFQRCodeMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFQRCodeMode.swift; path = Source/EFQRCodeMode.swift; sourceTree = "<group>"; };
+		767D925AE4E2B211D74F3E8105BAE854 /* EFInputCorrectionLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFInputCorrectionLevel.swift; path = Source/EFInputCorrectionLevel.swift; sourceTree = "<group>"; };
+		8F95FE356147FB046BD7BEC53459B210 /* Pods-Contatinho WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Contatinho WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A93DFC8A6473DB16E9B6BA0CC617FF7 /* EFQRCode-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "EFQRCode-iOS.modulemap"; sourceTree = "<group>"; };
+		9AA52D1DB97B14C020D0B00A6320703C /* EFWatermarkMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFWatermarkMode.swift; path = Source/EFWatermarkMode.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EDE7E8D9A7518F73595CCB6A19F16B1 /* EFQRCode+GIF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EFQRCode+GIF.swift"; path = "Source/EFQRCode+GIF.swift"; sourceTree = "<group>"; };
+		9FBBA8A764948BABDB399D227D2B2D03 /* libPods-Contatinho WatchKit Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Contatinho WatchKit Extension.a"; path = "libPods-Contatinho WatchKit Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31D3A147BB67D266B152B7F7E09C991 /* QRMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRMath.swift; path = Sources/QRMath.swift; sourceTree = "<group>"; };
+		A704EEFF7433BE525B957B2B8026DDA0 /* EFQRCodeGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFQRCodeGenerator.swift; path = Source/EFQRCodeGenerator.swift; sourceTree = "<group>"; };
+		A7A7C43EC00B4964C6DEE08144506999 /* NSImage+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSImage+.swift"; path = "Source/NSImage+.swift"; sourceTree = "<group>"; };
+		ACF515C7F0000602C27183B5EB7B5B3E /* swift_qrcodejs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = swift_qrcodejs.modulemap; sourceTree = "<group>"; };
+		AF4CE29F7EE1FCA0F3D5579CE85D0753 /* QRCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCode.swift; path = Sources/QRCode.swift; sourceTree = "<group>"; };
+		B09B4EB6B92836ADDFDDE3C1D7D3D76B /* QRMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRMode.swift; path = Sources/QRMode.swift; sourceTree = "<group>"; };
+		B0C0A5BD4B43E56C5ACFA8D87D323C08 /* EFQRCode-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EFQRCode-watchOS-prefix.pch"; path = "../EFQRCode-watchOS/EFQRCode-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		B74A9F228638743ED5BB309672DF4BD2 /* EFPointShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFPointShape.swift; path = Source/EFPointShape.swift; sourceTree = "<group>"; };
+		B8181E4AB8470926B4811F69C88F9D8E /* Pods-Contatinho WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Contatinho WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		B8545EDE59BA5C45924383CC17A9CEEA /* NSColor+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSColor+.swift"; path = "Source/NSColor+.swift"; sourceTree = "<group>"; };
+		BA3A7CB612226A76E4DA324100ACAE9F /* swift_qrcodejs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "swift_qrcodejs-umbrella.h"; sourceTree = "<group>"; };
+		C06CAA44FF38AA60F54FFBB35A074572 /* EFQRCode-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFQRCode-iOS-umbrella.h"; sourceTree = "<group>"; };
+		C079D5C494408C554A5752FCE18ACD4A /* Pods-Contatinho WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Contatinho WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1AE8B25B475191D8598213645E31283 /* libEFQRCode-watchOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libEFQRCode-watchOS.a"; path = "libEFQRCode-watchOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23FF3CB317B532660A2DE4E77E5D269 /* libPods-Contatinho.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Contatinho.a"; path = "libPods-Contatinho.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F13AB5C5EC8ACCB067B30961E5E1AE /* QRMaskPattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRMaskPattern.swift; path = Sources/QRMaskPattern.swift; sourceTree = "<group>"; };
+		C9B406002DA2D7FF56E51B8E91F99742 /* EFQRCode-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "EFQRCode-watchOS.release.xcconfig"; path = "../EFQRCode-watchOS/EFQRCode-watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		C9EF3E3E184FB03BFC35F800B7AB3276 /* Pods-Contatinho WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Contatinho WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
+		CCF7ECCDCCAB5C878BB5A7DA59D2CE49 /* BinaryFloatingPoint+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BinaryFloatingPoint+.swift"; path = "Source/BinaryFloatingPoint+.swift"; sourceTree = "<group>"; };
+		D1444B17232919A10D5A5CA512F4FA96 /* Pods-Contatinho WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Contatinho WatchKit App-dummy.m"; sourceTree = "<group>"; };
+		DE10CF2D195BF52C91E660BBDF0FD09E /* BCH.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BCH.swift; path = Sources/BCH.swift; sourceTree = "<group>"; };
+		DFD165C3012C17C635E304CCA425DCCA /* Pods-Contatinho WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Contatinho WatchKit App-umbrella.h"; sourceTree = "<group>"; };
+		E0166926EB22834E27B81AAD0952FA72 /* EFQRCode+ObjC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EFQRCode+ObjC.swift"; path = "Source/EFQRCode+ObjC.swift"; sourceTree = "<group>"; };
+		E3DA99197A739460F7D8ACE211E6C0A2 /* Pods-Contatinho-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Contatinho-dummy.m"; sourceTree = "<group>"; };
+		E8F8811C0CDE8CFB7928669C7B139DAD /* QRCodeModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeModel.swift; path = Sources/QRCodeModel.swift; sourceTree = "<group>"; };
+		EC94480BC12A766BD18AB1E6EB37E589 /* Pods-Contatinho WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Contatinho WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		EEB261DA96A8297BF29B173BF77B4BFC /* Pods-Contatinho WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Contatinho WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		EEC3D09320EBF0388C86697884FC49F4 /* QRCodeError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeError.swift; path = Sources/QRCodeError.swift; sourceTree = "<group>"; };
+		F1F07803412C29880F971D4DC0AB7FA4 /* EFQRCode-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EFQRCode-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F206733F5046491A397B2BD1CEF162CD /* EFQRCode-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFQRCode-iOS-prefix.pch"; sourceTree = "<group>"; };
+		F2A4FF7BD878A11722842C36CAEE8C9C /* QRPatternLocator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRPatternLocator.swift; path = Sources/QRPatternLocator.swift; sourceTree = "<group>"; };
+		F2C0C726283D6B0002E8200B9F1E643E /* CIImage+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CIImage+.swift"; path = "Source/CIImage+.swift"; sourceTree = "<group>"; };
+		F328D69FC125747CE954552FA1BD407C /* EFUIntPixel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFUIntPixel.swift; path = Source/EFUIntPixel.swift; sourceTree = "<group>"; };
+		F5F9BDFEF7AE678703C8681A02B52CA0 /* swift_qrcodejs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = swift_qrcodejs.release.xcconfig; sourceTree = "<group>"; };
+		F8B7EF18EA681B1E90B3FF16C33B1291 /* Pods-Contatinho WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Contatinho WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
+		FCBCF27276AA808DD4E347F1FA6C931A /* EFQRCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFQRCode.swift; path = Source/EFQRCode.swift; sourceTree = "<group>"; };
+		FD6EEE14856CE98108308B92F1217C6E /* Pods-Contatinho WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Contatinho WatchKit Extension.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F8E42C87530A823C564E850525ACB27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D30A58DABB64F1CB521E234749CCFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5362BEAAC8220B16DF52159ED6F4AD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625419A5FCE757A1AD552D5A43E1A2C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC1C99329F74274DDDBA4B7B406CF0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E84C1A0C3ED9F7FC4DDA2AD494F049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3268DE457337BB4457B5C2F09D624FD6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				981BD475D344B8B19CCF2433209B9731 /* Pods-Contatinho */,
+				A2C2956299E90748DD1C1C4296E76CFC /* Pods-Contatinho WatchKit App */,
+				32AA8B494C72AB3AD264DA450AE1337C /* Pods-Contatinho WatchKit Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		32AA8B494C72AB3AD264DA450AE1337C /* Pods-Contatinho WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FD6EEE14856CE98108308B92F1217C6E /* Pods-Contatinho WatchKit Extension.modulemap */,
+				2164B90B486F592D494AD7060FA2BF78 /* Pods-Contatinho WatchKit Extension-acknowledgements.markdown */,
+				C079D5C494408C554A5752FCE18ACD4A /* Pods-Contatinho WatchKit Extension-acknowledgements.plist */,
+				F8B7EF18EA681B1E90B3FF16C33B1291 /* Pods-Contatinho WatchKit Extension-dummy.m */,
+				4C670E4B1F9D312D86D9575916F69742 /* Pods-Contatinho WatchKit Extension-umbrella.h */,
+				237175766098673EC8DB095FEC9D0AA7 /* Pods-Contatinho WatchKit Extension.debug.xcconfig */,
+				B8181E4AB8470926B4811F69C88F9D8E /* Pods-Contatinho WatchKit Extension.release.xcconfig */,
+			);
+			name = "Pods-Contatinho WatchKit Extension";
+			path = "Target Support Files/Pods-Contatinho WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		61BC7DF48A1D4DEE5B0B74E8E24BC56D /* EFQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				CCF7ECCDCCAB5C878BB5A7DA59D2CE49 /* BinaryFloatingPoint+.swift */,
+				1A9B3F57D58C3CAE1D2A793AB8D30B25 /* BinaryInteger+.swift */,
+				112DB9BCFC5BFAD8310936C56CCE1171 /* CGColor+.swift */,
+				6A65BFB40DC5BC1F0F7086F890C2E642 /* CGImage+.swift */,
+				395DA43810ED807A642C2AAF091A008E /* CIColor+.swift */,
+				F2C0C726283D6B0002E8200B9F1E643E /* CIImage+.swift */,
+				767D925AE4E2B211D74F3E8105BAE854 /* EFInputCorrectionLevel.swift */,
+				0DA0B64026686B9CC078ED8EE849EB64 /* EFIntSize.swift */,
+				B74A9F228638743ED5BB309672DF4BD2 /* EFPointShape.swift */,
+				0D1B7655D6B19DEDFC48D38B7CF4AF95 /* EFQRCode.h */,
+				FCBCF27276AA808DD4E347F1FA6C931A /* EFQRCode.swift */,
+				9EDE7E8D9A7518F73595CCB6A19F16B1 /* EFQRCode+GIF.swift */,
+				46A7D03FD363C744371599A366B50855 /* EFQRCode+Migration-v6.swift */,
+				E0166926EB22834E27B81AAD0952FA72 /* EFQRCode+ObjC.swift */,
+				A704EEFF7433BE525B957B2B8026DDA0 /* EFQRCodeGenerator.swift */,
+				750512A61F96505EBC7656D0DBC899D3 /* EFQRCodeMode.swift */,
+				03AC6B0B2BDE68262F69A2A90F65AB82 /* EFQRCodeRecognizer.swift */,
+				F328D69FC125747CE954552FA1BD407C /* EFUIntPixel.swift */,
+				9AA52D1DB97B14C020D0B00A6320703C /* EFWatermarkMode.swift */,
+				B8545EDE59BA5C45924383CC17A9CEEA /* NSColor+.swift */,
+				A7A7C43EC00B4964C6DEE08144506999 /* NSImage+.swift */,
+				317C6858B8A93D75D6604AE1E9704F1B /* UIColor+.swift */,
+				0CA79CCDFF28D8EB012AAE17ACFFD50C /* UIImage+.swift */,
+				918E5147B11DD17287069AE42FAD543A /* Support Files */,
+			);
+			name = EFQRCode;
+			path = EFQRCode;
+			sourceTree = "<group>";
+		};
+		6BB8B03118287B13DF1386275AC9AB32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				390F6E627618B7ADEEBEC6911E414E48 /* libEFQRCode-iOS.a */,
+				C1AE8B25B475191D8598213645E31283 /* libEFQRCode-watchOS.a */,
+				C23FF3CB317B532660A2DE4E77E5D269 /* libPods-Contatinho.a */,
+				36599492C16CD89BC2313188B7C52F1A /* libPods-Contatinho WatchKit App.a */,
+				9FBBA8A764948BABDB399D227D2B2D03 /* libPods-Contatinho WatchKit Extension.a */,
+				300232A457594A2142CCD4EBBEAEEE83 /* libswift_qrcodejs.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		900563DB5C1DE90B0DD24B3BC3A7CCBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61BC7DF48A1D4DEE5B0B74E8E24BC56D /* EFQRCode */,
+				F1E0B79E79063C1D1D08E4C8137253FC /* swift_qrcodejs */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		918E5147B11DD17287069AE42FAD543A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A93DFC8A6473DB16E9B6BA0CC617FF7 /* EFQRCode-iOS.modulemap */,
+				207ABA50D2DD8FF07109F29DAC2242A2 /* EFQRCode-iOS-dummy.m */,
+				F206733F5046491A397B2BD1CEF162CD /* EFQRCode-iOS-prefix.pch */,
+				C06CAA44FF38AA60F54FFBB35A074572 /* EFQRCode-iOS-umbrella.h */,
+				F1F07803412C29880F971D4DC0AB7FA4 /* EFQRCode-iOS.debug.xcconfig */,
+				3DE51534A523DE9818A6401ABD4BBBA6 /* EFQRCode-iOS.release.xcconfig */,
+				3CD6924B3607D44195B422E105D3F483 /* EFQRCode-watchOS.modulemap */,
+				61CD714BC8ADE2497432AFC5C459F7FC /* EFQRCode-watchOS-dummy.m */,
+				B0C0A5BD4B43E56C5ACFA8D87D323C08 /* EFQRCode-watchOS-prefix.pch */,
+				0DA8F693A0532757CE2FD1F9A47433E9 /* EFQRCode-watchOS-umbrella.h */,
+				0311F4EA53032D872E29C1D83FB32362 /* EFQRCode-watchOS.debug.xcconfig */,
+				C9B406002DA2D7FF56E51B8E91F99742 /* EFQRCode-watchOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EFQRCode-iOS";
+			sourceTree = "<group>";
+		};
+		981BD475D344B8B19CCF2433209B9731 /* Pods-Contatinho */ = {
+			isa = PBXGroup;
+			children = (
+				2545089EFA8035F4A7571EE2797CFE0D /* Pods-Contatinho.modulemap */,
+				31E9157A96587BED663F69383498B3C5 /* Pods-Contatinho-acknowledgements.markdown */,
+				03D098A72CB771A05DB0558B293AB5AC /* Pods-Contatinho-acknowledgements.plist */,
+				E3DA99197A739460F7D8ACE211E6C0A2 /* Pods-Contatinho-dummy.m */,
+				14B45A3DAB847D61487CD20D433AAF0D /* Pods-Contatinho-umbrella.h */,
+				4AB322CFB350B6BD7FEA1D3751706F41 /* Pods-Contatinho.debug.xcconfig */,
+				567195866E862B881C598A54B3528874 /* Pods-Contatinho.release.xcconfig */,
+			);
+			name = "Pods-Contatinho";
+			path = "Target Support Files/Pods-Contatinho";
+			sourceTree = "<group>";
+		};
+		9D65A2EAE1616EAC92A033321C3AF9BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACF515C7F0000602C27183B5EB7B5B3E /* swift_qrcodejs.modulemap */,
+				71B03A7E0BA1B0841BF109FAB6C157B1 /* swift_qrcodejs-dummy.m */,
+				2989E843CEECD7E72374309F74B18158 /* swift_qrcodejs-prefix.pch */,
+				BA3A7CB612226A76E4DA324100ACAE9F /* swift_qrcodejs-umbrella.h */,
+				674BBDB177E73FFA8C873B68353F3E40 /* swift_qrcodejs.debug.xcconfig */,
+				F5F9BDFEF7AE678703C8681A02B52CA0 /* swift_qrcodejs.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/swift_qrcodejs";
+			sourceTree = "<group>";
+		};
+		A2C2956299E90748DD1C1C4296E76CFC /* Pods-Contatinho WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				28A909905EFE8D1AA67FD94427E2D2E2 /* Pods-Contatinho WatchKit App.modulemap */,
+				8F95FE356147FB046BD7BEC53459B210 /* Pods-Contatinho WatchKit App-acknowledgements.markdown */,
+				C9EF3E3E184FB03BFC35F800B7AB3276 /* Pods-Contatinho WatchKit App-acknowledgements.plist */,
+				D1444B17232919A10D5A5CA512F4FA96 /* Pods-Contatinho WatchKit App-dummy.m */,
+				DFD165C3012C17C635E304CCA425DCCA /* Pods-Contatinho WatchKit App-umbrella.h */,
+				EEB261DA96A8297BF29B173BF77B4BFC /* Pods-Contatinho WatchKit App.debug.xcconfig */,
+				EC94480BC12A766BD18AB1E6EB37E589 /* Pods-Contatinho WatchKit App.release.xcconfig */,
+			);
+			name = "Pods-Contatinho WatchKit App";
+			path = "Target Support Files/Pods-Contatinho WatchKit App";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				900563DB5C1DE90B0DD24B3BC3A7CCBA /* Pods */,
+				6BB8B03118287B13DF1386275AC9AB32 /* Products */,
+				3268DE457337BB4457B5C2F09D624FD6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1E0B79E79063C1D1D08E4C8137253FC /* swift_qrcodejs */ = {
+			isa = PBXGroup;
+			children = (
+				DE10CF2D195BF52C91E660BBDF0FD09E /* BCH.swift */,
+				086F0D0008FB1E9DEE3CD4DDC6F5FF2A /* QR8bitByte.swift */,
+				1C1BD2C93808D819BC2863BF73900F18 /* QRBitBuffer.swift */,
+				AF4CE29F7EE1FCA0F3D5579CE85D0753 /* QRCode.swift */,
+				EEC3D09320EBF0388C86697884FC49F4 /* QRCodeError.swift */,
+				E8F8811C0CDE8CFB7928669C7B139DAD /* QRCodeModel.swift */,
+				0B0AF2556FF40CD567C86F9FADCFBD29 /* QRCodeSwift.h */,
+				6DB984E8BA2971867573D5064EA0662A /* QRCodeType.swift */,
+				2F3A26643D9AA6D9FEA191CEB6E95B49 /* QRErrorCorrectLevel.swift */,
+				C8F13AB5C5EC8ACCB067B30961E5E1AE /* QRMaskPattern.swift */,
+				A31D3A147BB67D266B152B7F7E09C991 /* QRMath.swift */,
+				B09B4EB6B92836ADDFDDE3C1D7D3D76B /* QRMode.swift */,
+				F2A4FF7BD878A11722842C36CAEE8C9C /* QRPatternLocator.swift */,
+				260DB49A477FE0F3B45D8A44AE1652AB /* QRPolynomial.swift */,
+				666D0E0B8A9E720EACA21C2C702D3A84 /* QRRSBlock.swift */,
+				9D65A2EAE1616EAC92A033321C3AF9BF /* Support Files */,
+			);
+			name = swift_qrcodejs;
+			path = swift_qrcodejs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		349C9CCCECF0A84A4ACD29A9A51317C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F8A4B62EFBB5A6E2F3973854010F85 /* EFQRCode-watchOS-umbrella.h in Headers */,
+				2C231409DEE65BE5D98B90D3BBD5672F /* EFQRCode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4957157AE595380F81B12FDD78842B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A521075B9E4146E153E7D0994FAA2DA1 /* QRCodeSwift.h in Headers */,
+				19214BCC2B08CEF614F8A8395F38AC71 /* swift_qrcodejs-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8091B2A2F79BB908BBEF3E5D1A2429 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EC15E5B3A8D640A5035048375B133A /* Pods-Contatinho WatchKit Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF734571EA642BEAC989A9E0252B40E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B232235B8D79EE05CF50CF0FB7719229 /* EFQRCode-iOS-umbrella.h in Headers */,
+				AC957F8EC135AD3A5A1538069F7D2F4F /* EFQRCode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E3CA9DB860A65F77EF4EB96C418049 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7619A277F0CB49CE85FD9F2A6A51CDB /* Pods-Contatinho-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC48E34EB609200B5BCBA262231757C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1F625702C62537F5EFEE3569ED5414 /* Pods-Contatinho WatchKit App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2CB14E01ACAEF27C132DEC19679E8456 /* EFQRCode-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B33FBD6FCE416FB4CA88FABEA34542E /* Build configuration list for PBXNativeTarget "EFQRCode-watchOS" */;
+			buildPhases = (
+				349C9CCCECF0A84A4ACD29A9A51317C4 /* Headers */,
+				A7921A46341CF8F0BCFBE95D50C4200F /* Sources */,
+				625419A5FCE757A1AD552D5A43E1A2C1 /* Frameworks */,
+				61E36FB9810D04F11F9D76F39F4A74FC /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B34D10F7C4291DB58B8962CBB3963F7E /* PBXTargetDependency */,
+			);
+			name = "EFQRCode-watchOS";
+			productName = "EFQRCode-watchOS";
+			productReference = C1AE8B25B475191D8598213645E31283 /* libEFQRCode-watchOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		345DDF896F8EC59B0A489DED760BA579 /* swift_qrcodejs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A011CB70A919B8EA777D5BE59FBE72C /* Build configuration list for PBXNativeTarget "swift_qrcodejs" */;
+			buildPhases = (
+				3F4957157AE595380F81B12FDD78842B /* Headers */,
+				92774C49B268219CC9A8569F29642D18 /* Sources */,
+				5362BEAAC8220B16DF52159ED6F4AD5A /* Frameworks */,
+				248734A03C2CB8C1BEEB5390A64AB648 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swift_qrcodejs;
+			productName = swift_qrcodejs;
+			productReference = 300232A457594A2142CCD4EBBEAEEE83 /* libswift_qrcodejs.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		691C164DCF2127B612A081B475295577 /* Pods-Contatinho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B47D3EF1EB98876BE7DD9A68E0DAC3 /* Build configuration list for PBXNativeTarget "Pods-Contatinho" */;
+			buildPhases = (
+				99E3CA9DB860A65F77EF4EB96C418049 /* Headers */,
+				1D432D376B72C8C3FA6112B68AB442F8 /* Sources */,
+				38D30A58DABB64F1CB521E234749CCFA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8AFFCDB13EE2C9116BDD83CBD356D71 /* PBXTargetDependency */,
+			);
+			name = "Pods-Contatinho";
+			productName = "Pods-Contatinho";
+			productReference = C23FF3CB317B532660A2DE4E77E5D269 /* libPods-Contatinho.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A599135B292F77144DD80ED6F1F4D1E5 /* Pods-Contatinho WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD26DBD1ABAF366ED70E6C240DCD7B3 /* Build configuration list for PBXNativeTarget "Pods-Contatinho WatchKit Extension" */;
+			buildPhases = (
+				4A8091B2A2F79BB908BBEF3E5D1A2429 /* Headers */,
+				CD59D4E5B6502169CE25FEBF4409FF48 /* Sources */,
+				2F8E42C87530A823C564E850525ACB27 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF3FD69922E247AA8E742BFC07534A3 /* PBXTargetDependency */,
+				BD93A1DC8B15E10ACAF1540F8C2B3D26 /* PBXTargetDependency */,
+			);
+			name = "Pods-Contatinho WatchKit Extension";
+			productName = "Pods-Contatinho WatchKit Extension";
+			productReference = 9FBBA8A764948BABDB399D227D2B2D03 /* libPods-Contatinho WatchKit Extension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ACEBF44B7E439F81A81798679251516B /* Pods-Contatinho WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8919F1EAE22DB75EA773A433E62C95D9 /* Build configuration list for PBXNativeTarget "Pods-Contatinho WatchKit App" */;
+			buildPhases = (
+				FC48E34EB609200B5BCBA262231757C5 /* Headers */,
+				8440CE127F7B57EBC7D07A11ACF3160C /* Sources */,
+				BCC1C99329F74274DDDBA4B7B406CF0E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FFA3ADFFA7B820D15E7A36C2027CBE8 /* PBXTargetDependency */,
+				9CE50744C90D12E36810481F4CAB141F /* PBXTargetDependency */,
+			);
+			name = "Pods-Contatinho WatchKit App";
+			productName = "Pods-Contatinho WatchKit App";
+			productReference = 36599492C16CD89BC2313188B7C52F1A /* libPods-Contatinho WatchKit App.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F4433113F3B699F2B33B1DC95150A93C /* EFQRCode-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB75E624CAC5419E603AC738CA55B8E6 /* Build configuration list for PBXNativeTarget "EFQRCode-iOS" */;
+			buildPhases = (
+				6FF734571EA642BEAC989A9E0252B40E /* Headers */,
+				87EC4128B3B87F3FADBDEEC62EF7B1FE /* Sources */,
+				F9E84C1A0C3ED9F7FC4DDA2AD494F049 /* Frameworks */,
+				4B2764253BC12709BFA32AF9CF1994E1 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EFQRCode-iOS";
+			productName = "EFQRCode-iOS";
+			productReference = 390F6E627618B7ADEEBEC6911E414E48 /* libEFQRCode-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6BB8B03118287B13DF1386275AC9AB32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4433113F3B699F2B33B1DC95150A93C /* EFQRCode-iOS */,
+				2CB14E01ACAEF27C132DEC19679E8456 /* EFQRCode-watchOS */,
+				691C164DCF2127B612A081B475295577 /* Pods-Contatinho */,
+				ACEBF44B7E439F81A81798679251516B /* Pods-Contatinho WatchKit App */,
+				A599135B292F77144DD80ED6F1F4D1E5 /* Pods-Contatinho WatchKit Extension */,
+				345DDF896F8EC59B0A489DED760BA579 /* swift_qrcodejs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		248734A03C2CB8C1BEEB5390A64AB648 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/QRCodeSwift/swift_qrcodejs.modulemap",
+				"${PODS_ROOT}/Headers/Public/QRCodeSwift/swift_qrcodejs-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/swift_qrcodejs-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/QRCodeSwift/swift_qrcodejs.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/QRCodeSwift/swift_qrcodejs-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		4B2764253BC12709BFA32AF9CF1994E1 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/EFQRCode/EFQRCode-iOS.modulemap",
+				"${PODS_ROOT}/Headers/Public/EFQRCode/EFQRCode-iOS-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/EFQRCode-iOS-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/EFQRCode/EFQRCode-iOS.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/EFQRCode/EFQRCode-iOS-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		61E36FB9810D04F11F9D76F39F4A74FC /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/EFQRCode/EFQRCode-watchOS.modulemap",
+				"${PODS_ROOT}/Headers/Public/EFQRCode/EFQRCode-watchOS-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/EFQRCode-watchOS-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/EFQRCode/EFQRCode-watchOS.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/EFQRCode/EFQRCode-watchOS-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D432D376B72C8C3FA6112B68AB442F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D95DB1B5B1D2AB99FBD01573F51CFA /* Pods-Contatinho-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8440CE127F7B57EBC7D07A11ACF3160C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792D4381C7D4F3CB2A862AFD3F7E0417 /* Pods-Contatinho WatchKit App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87EC4128B3B87F3FADBDEEC62EF7B1FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B052E6BA5CE4B7D896DF58B95AC7BA /* BinaryFloatingPoint+.swift in Sources */,
+				5A6B24EEE80BDEE56354D7F07B88D80F /* BinaryInteger+.swift in Sources */,
+				9FF54E0C6BF6DAD5A71F922AD0E96F7C /* CGColor+.swift in Sources */,
+				6308C498F03E8D4D0369ECDD8CAC300C /* CGImage+.swift in Sources */,
+				50F53CC53FE7EFF351A654BF1CA61622 /* CIColor+.swift in Sources */,
+				0F1B25DF8C683D773988FF8274BFD9E1 /* CIImage+.swift in Sources */,
+				E215D56E51D9C64F4C7FB6381E42BC4B /* EFInputCorrectionLevel.swift in Sources */,
+				F2EC4B981575F8CF79B7475CD8904DA4 /* EFIntSize.swift in Sources */,
+				F6A7DBD3DEC79E4BE04F4B1A7752CD31 /* EFPointShape.swift in Sources */,
+				714622F9CA987ECE5828802292C2BAAA /* EFQRCode+GIF.swift in Sources */,
+				7CBE05BB73A88F128A375C85E27F8B4D /* EFQRCode+Migration-v6.swift in Sources */,
+				18C8CFA779C0CF0B1ED1C6F8BCB762FA /* EFQRCode+ObjC.swift in Sources */,
+				013E6052571D34E914DA1A924711FACF /* EFQRCode-iOS-dummy.m in Sources */,
+				F506233ADCF1EF68B7234162B7077C21 /* EFQRCode.swift in Sources */,
+				8894B7010B988E6996CED708F234C702 /* EFQRCodeGenerator.swift in Sources */,
+				ED572C60E7ECA690A456BCF9C363AED7 /* EFQRCodeMode.swift in Sources */,
+				A3AE989DD2602E30A9E75CC6D1260362 /* EFQRCodeRecognizer.swift in Sources */,
+				8C23C67BDE54D7775E77D93D35B32C19 /* EFUIntPixel.swift in Sources */,
+				85257E188197F79D0C5F3C1C0CDDF104 /* EFWatermarkMode.swift in Sources */,
+				776D84C0415802B8D9AD80F0C9A97BD4 /* NSColor+.swift in Sources */,
+				5177E4BF5110A022D23CE864A842D106 /* NSImage+.swift in Sources */,
+				99575AED76A8BBC8A95DC0E144DF9BC1 /* UIColor+.swift in Sources */,
+				84E9D75C102A3645620591073F471A09 /* UIImage+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92774C49B268219CC9A8569F29642D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2BF5C420033BABD5FF9B4DB82A38AA /* BCH.swift in Sources */,
+				49A802A957EBF86E24ABCF968868E97C /* QR8bitByte.swift in Sources */,
+				3B8BB313DCDF57F9F0711FC8542E5721 /* QRBitBuffer.swift in Sources */,
+				758A7CD29541343D369AD92A4559C0A6 /* QRCode.swift in Sources */,
+				052DAD3C187E8CFE9BD66916D73C42D1 /* QRCodeError.swift in Sources */,
+				4049BE9A09F9BA049796C1E9EE4DCA0F /* QRCodeModel.swift in Sources */,
+				CFE8F70F29ED2ECB7019242DA163E142 /* QRCodeType.swift in Sources */,
+				48396FBA3BD1F831D0B3264009F84821 /* QRErrorCorrectLevel.swift in Sources */,
+				54EC9FACD296A17EB8D4FD1F9B334ACB /* QRMaskPattern.swift in Sources */,
+				9FF52C7E953A58008149CC68E0B57879 /* QRMath.swift in Sources */,
+				1136BB843AE64813916B2855E9E9F420 /* QRMode.swift in Sources */,
+				25D24960A9CCA4F164E71F7549092BEC /* QRPatternLocator.swift in Sources */,
+				00757B3EC6FC74E4785C027256C1593A /* QRPolynomial.swift in Sources */,
+				B761D22A7E1393DEF851B066F4E91532 /* QRRSBlock.swift in Sources */,
+				24AD0335BEEE7CD96D0D521CA6F92639 /* swift_qrcodejs-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7921A46341CF8F0BCFBE95D50C4200F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD132C85980A1B0955B215C839CCDBD /* BinaryFloatingPoint+.swift in Sources */,
+				25C095B813F25D292DE9CAACCF99AE98 /* BinaryInteger+.swift in Sources */,
+				4CAB63B5A194E4397CF4784E0E05C6C1 /* CGColor+.swift in Sources */,
+				45CB7041E94739B5317E75B09F56F4E1 /* CGImage+.swift in Sources */,
+				91513D80FD2EB8CE3289C28A5A32845B /* CIColor+.swift in Sources */,
+				611EDE739A468928BBE047BF974A5A45 /* CIImage+.swift in Sources */,
+				E75DB971FE440FF51D4F7742DEB1E471 /* EFInputCorrectionLevel.swift in Sources */,
+				A72D48A41516A52DDB7967B0D78EFF4C /* EFIntSize.swift in Sources */,
+				40364CE1F118C0FB1FC4F068B2BC6F26 /* EFPointShape.swift in Sources */,
+				62EBF008C99D5CF6BE5FD539BACAE4E6 /* EFQRCode+GIF.swift in Sources */,
+				5F54EE9D877097439EB9F1278D87BFFC /* EFQRCode+Migration-v6.swift in Sources */,
+				CAC52210ABC44850C9723D2280337537 /* EFQRCode+ObjC.swift in Sources */,
+				D7A03A477C81910883963C1D4CC0F716 /* EFQRCode-watchOS-dummy.m in Sources */,
+				CD6365312A382DA3CEB2C4A683FFAFF4 /* EFQRCode.swift in Sources */,
+				400C6F2E59F1355A89A00A7B29A3078D /* EFQRCodeGenerator.swift in Sources */,
+				8CAD32E3EBBFA35297A6092C96D40EDA /* EFQRCodeMode.swift in Sources */,
+				C8CE516D778660414923744D045B4B89 /* EFQRCodeRecognizer.swift in Sources */,
+				9A25EFBC0EC57DBA10F64E3A2025E30B /* EFUIntPixel.swift in Sources */,
+				77EEECE1F349491F41D379BDD39AF0E6 /* EFWatermarkMode.swift in Sources */,
+				E4DA9180FF939760143D7CB4B0736858 /* NSColor+.swift in Sources */,
+				0537C0002CC58A52DC96CC53B18590BE /* NSImage+.swift in Sources */,
+				7466DEE4F78AF511E49D7ABCE7185FED /* UIColor+.swift in Sources */,
+				A35D2254575A5D0F47342AD6AE89F3EF /* UIImage+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD59D4E5B6502169CE25FEBF4409FF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2296A4116A178DE42EC96DA705B19A7C /* Pods-Contatinho WatchKit Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FFA3ADFFA7B820D15E7A36C2027CBE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EFQRCode-watchOS";
+			target = 2CB14E01ACAEF27C132DEC19679E8456 /* EFQRCode-watchOS */;
+			targetProxy = AA0D0A2BB377271DC6801907246100E6 /* PBXContainerItemProxy */;
+		};
+		9CE50744C90D12E36810481F4CAB141F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = swift_qrcodejs;
+			target = 345DDF896F8EC59B0A489DED760BA579 /* swift_qrcodejs */;
+			targetProxy = 8792BD13AE60455A4721A66393B9E4D7 /* PBXContainerItemProxy */;
+		};
+		B34D10F7C4291DB58B8962CBB3963F7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = swift_qrcodejs;
+			target = 345DDF896F8EC59B0A489DED760BA579 /* swift_qrcodejs */;
+			targetProxy = 98E5E9D7E792DA0F4090EE221220DB57 /* PBXContainerItemProxy */;
+		};
+		BD93A1DC8B15E10ACAF1540F8C2B3D26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = swift_qrcodejs;
+			target = 345DDF896F8EC59B0A489DED760BA579 /* swift_qrcodejs */;
+			targetProxy = A7F258F58AAE994A84CDED48202DB400 /* PBXContainerItemProxy */;
+		};
+		D8AFFCDB13EE2C9116BDD83CBD356D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EFQRCode-iOS";
+			target = F4433113F3B699F2B33B1DC95150A93C /* EFQRCode-iOS */;
+			targetProxy = ED25E468717302B751D95E9282B98643 /* PBXContainerItemProxy */;
+		};
+		EAF3FD69922E247AA8E742BFC07534A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EFQRCode-watchOS";
+			target = 2CB14E01ACAEF27C132DEC19679E8456 /* EFQRCode-watchOS */;
+			targetProxy = 62BE6F7D71E4EB1BCABCCD951DD327B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		058524E96895AE684F4293AB5AF12D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		0D7DBD2F4B56EAC18AB79F4FA351803D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 567195866E862B881C598A54B3528874 /* Pods-Contatinho.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Contatinho/Pods-Contatinho.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		105622ED7C9CDDD871E9AF85830618FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0311F4EA53032D872E29C1D83FB32362 /* EFQRCode-watchOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EFQRCode-watchOS/EFQRCode-watchOS-prefix.pch";
+				MODULEMAP_FILE = "Headers/Public/EFQRCode/EFQRCode-watchOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EFQRCode;
+				PRODUCT_NAME = "EFQRCode-watchOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		107129FE0379C8C19C217459ED400D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC94480BC12A766BD18AB1E6EB37E589 /* Pods-Contatinho WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Contatinho WatchKit App/Pods-Contatinho WatchKit App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		3ABFD1B02DFF6197E0EF7F80181321E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F9BDFEF7AE678703C8681A02B52CA0 /* swift_qrcodejs.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/swift_qrcodejs/swift_qrcodejs-prefix.pch";
+				MODULEMAP_FILE = Headers/Public/QRCodeSwift/swift_qrcodejs.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = QRCodeSwift;
+				PRODUCT_NAME = swift_qrcodejs;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		47ABBAE1F7B878DB56F3CA456B04A558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F07803412C29880F971D4DC0AB7FA4 /* EFQRCode-iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EFQRCode-iOS/EFQRCode-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = "Headers/Public/EFQRCode/EFQRCode-iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EFQRCode;
+				PRODUCT_NAME = "EFQRCode-iOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FD1B3C6199D5788F108551F351EA112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE51534A523DE9818A6401ABD4BBBA6 /* EFQRCode-iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EFQRCode-iOS/EFQRCode-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = "Headers/Public/EFQRCode/EFQRCode-iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EFQRCode;
+				PRODUCT_NAME = "EFQRCode-iOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6898E78C7F34F2E040147305D6C984F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 674BBDB177E73FFA8C873B68353F3E40 /* swift_qrcodejs.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/swift_qrcodejs/swift_qrcodejs-prefix.pch";
+				MODULEMAP_FILE = Headers/Public/QRCodeSwift/swift_qrcodejs.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = QRCodeSwift;
+				PRODUCT_NAME = swift_qrcodejs;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		6DC7FF571FFB304477A80A3500AEF5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		8FD58C051ECB3EE3B92F90958FA4F948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B406002DA2D7FF56E51B8E91F99742 /* EFQRCode-watchOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EFQRCode-watchOS/EFQRCode-watchOS-prefix.pch";
+				MODULEMAP_FILE = "Headers/Public/EFQRCode/EFQRCode-watchOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EFQRCode;
+				PRODUCT_NAME = "EFQRCode-watchOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		9E60CE339FC66F8A57DDB06AE542CD8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEB261DA96A8297BF29B173BF77B4BFC /* Pods-Contatinho WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Contatinho WatchKit App/Pods-Contatinho WatchKit App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		A793BD0E0B558B937017EBB9134C0BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 237175766098673EC8DB095FEC9D0AA7 /* Pods-Contatinho WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Contatinho WatchKit Extension/Pods-Contatinho WatchKit Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		D0996F34C9A0C6E79FF69ABA3008E38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB322CFB350B6BD7FEA1D3751706F41 /* Pods-Contatinho.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Contatinho/Pods-Contatinho.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCCB3753EB6FFD54D7D5E006B672AF06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8181E4AB8470926B4811F69C88F9D8E /* Pods-Contatinho WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Contatinho WatchKit Extension/Pods-Contatinho WatchKit Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B33FBD6FCE416FB4CA88FABEA34542E /* Build configuration list for PBXNativeTarget "EFQRCode-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105622ED7C9CDDD871E9AF85830618FF /* Debug */,
+				8FD58C051ECB3EE3B92F90958FA4F948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD26DBD1ABAF366ED70E6C240DCD7B3 /* Build configuration list for PBXNativeTarget "Pods-Contatinho WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A793BD0E0B558B937017EBB9134C0BCF /* Debug */,
+				FCCB3753EB6FFD54D7D5E006B672AF06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC7FF571FFB304477A80A3500AEF5D1 /* Debug */,
+				058524E96895AE684F4293AB5AF12D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8919F1EAE22DB75EA773A433E62C95D9 /* Build configuration list for PBXNativeTarget "Pods-Contatinho WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E60CE339FC66F8A57DDB06AE542CD8A /* Debug */,
+				107129FE0379C8C19C217459ED400D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A011CB70A919B8EA777D5BE59FBE72C /* Build configuration list for PBXNativeTarget "swift_qrcodejs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6898E78C7F34F2E040147305D6C984F7 /* Debug */,
+				3ABFD1B02DFF6197E0EF7F80181321E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B47D3EF1EB98876BE7DD9A68E0DAC3 /* Build configuration list for PBXNativeTarget "Pods-Contatinho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0996F34C9A0C6E79FF69ABA3008E38E /* Debug */,
+				0D7DBD2F4B56EAC18AB79F4FA351803D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB75E624CAC5419E603AC738CA55B8E6 /* Build configuration list for PBXNativeTarget "EFQRCode-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47ABBAE1F7B878DB56F3CA456B04A558 /* Debug */,
+				4FD1B3C6199D5788F108551F351EA112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

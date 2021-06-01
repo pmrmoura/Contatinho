@@ -15,7 +15,7 @@ struct SelectContactsView: View {
                 Text("Selecione o contato")
                 ForEach(viewModel.contacts, id: \.id) { contact in
                     NavigationLink(
-                        destination: ConfirmRegistration(name: contact.firstName),
+                        destination: ConfirmRegistration(contact: contact),
                         label: {
                             Text(contact.firstName + " " + contact.lastName)
                         }

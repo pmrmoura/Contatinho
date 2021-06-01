@@ -1,0 +1,6 @@
+module Pods_Contatinho {
+  umbrella header "Pods-Contatinho-umbrella.h"
+
+  export *
+  module * { export * }
+}

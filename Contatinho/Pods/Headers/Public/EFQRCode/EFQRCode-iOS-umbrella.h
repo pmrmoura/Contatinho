@@ -1,0 +1,1 @@
+../../../Target Support Files/EFQRCode-iOS/EFQRCode-iOS-umbrella.h

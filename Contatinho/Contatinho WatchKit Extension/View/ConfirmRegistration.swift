@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ConfirmRegistration: View {
     @Environment(\.presentationMode) var presentationMode
-    @State var name: String
+    let contact: Contact
     @State var backFromQRCodeView = false
     var body: some View {
         ScrollView{
@@ -20,11 +20,11 @@ struct ConfirmRegistration: View {
                 Text("👍")
                     .font(.title2)
                 
-                Text("Cartão \(name) selecionado.")
+                Text("Cartão \(contact.firstName) selecionado.")
                     .multilineTextAlignment(.center)
                 
                 NavigationLink(
-                    destination: QRCodeView(backFromQRCodeView: $backFromQRCodeView),
+                    destination: QRCodeView(backFromQRCodeView: $backFromQRCodeView, contact: contact),
                     label: {
                         Text("Usar QRCode")
                     })

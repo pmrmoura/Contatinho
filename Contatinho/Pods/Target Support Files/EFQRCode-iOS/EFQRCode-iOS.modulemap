@@ -1,0 +1,7 @@
+module EFQRCode {
+  umbrella header "EFQRCode-iOS-umbrella.h"
+  exclude header "EFQRCode-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

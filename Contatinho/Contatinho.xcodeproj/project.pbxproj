@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06DFDA6D5CBB5E15F3A2997B /* libPods-Contatinho.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD00BFBF6C993A3CA63B3E74 /* libPods-Contatinho.a */; };
+		B1E29A6F4CD04D76D457C232 /* libPods-Contatinho WatchKit Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BBD5DD8D709F8A1376B432 /* libPods-Contatinho WatchKit Extension.a */; };
+		C17DBD852666507B0090D097 /* QRCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17DBD842666507B0090D097 /* QRCodeViewModel.swift */; };
 		C187BC03265FC9D800B559ED /* Contatinho WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C187BC02265FC9D800B559ED /* Contatinho WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C187BC08265FC9D900B559ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C187BC07265FC9D900B559ED /* Assets.xcassets */; };
 		C187BC0F265FC9D900B559ED /* Contatinho WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C187BC0E265FC9D900B559ED /* Contatinho WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -22,6 +25,7 @@
 		C187BC40265FE81000B559ED /* SelectContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187BC3F265FE81000B559ED /* SelectContactsView.swift */; };
 		C1D791932661162F00029EE9 /* ConfirmRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D791922661162F00029EE9 /* ConfirmRegistration.swift */; };
 		C1D791952661164500029EE9 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D791942661164500029EE9 /* QRCodeView.swift */; };
+		E84BCFD38D818A06D9390A1F /* libPods-Contatinho WatchKit App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4556CE41D8D2537EFD04A961 /* libPods-Contatinho WatchKit App.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		24BFA5E7A808A70B90EFCD91 /* Pods-Contatinho.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contatinho.debug.xcconfig"; path = "Target Support Files/Pods-Contatinho/Pods-Contatinho.debug.xcconfig"; sourceTree = "<group>"; };
+		31BBD5DD8D709F8A1376B432 /* libPods-Contatinho WatchKit Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Contatinho WatchKit Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4556CE41D8D2537EFD04A961 /* libPods-Contatinho WatchKit App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Contatinho WatchKit App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7637EAD912F1C3B6A998A8 /* Pods-Contatinho WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contatinho WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-Contatinho WatchKit App/Pods-Contatinho WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		5741D80FD3CAFC69DBDACCEF /* Pods-Contatinho.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contatinho.release.xcconfig"; path = "Target Support Files/Pods-Contatinho/Pods-Contatinho.release.xcconfig"; sourceTree = "<group>"; };
+		6A9A69448240BD383D277241 /* Pods-Contatinho WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contatinho WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-Contatinho WatchKit Extension/Pods-Contatinho WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		AD00BFBF6C993A3CA63B3E74 /* libPods-Contatinho.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Contatinho.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17DBD842666507B0090D097 /* QRCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewModel.swift; sourceTree = "<group>"; };
 		C187BBFE265FC9D700B559ED /* Contatinho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contatinho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C187BC02265FC9D800B559ED /* Contatinho WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contatinho WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C187BC07265FC9D900B559ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,25 +98,59 @@
 		C187BC3F265FE81000B559ED /* SelectContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectContactsView.swift; sourceTree = "<group>"; };
 		C1D791922661162F00029EE9 /* ConfirmRegistration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmRegistration.swift; sourceTree = "<group>"; };
 		C1D791942661164500029EE9 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		D8F5E693960ADA4CAE895C5C /* Pods-Contatinho WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contatinho WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-Contatinho WatchKit App/Pods-Contatinho WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		FF79FA32841C86653FC40A8D /* Pods-Contatinho WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contatinho WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-Contatinho WatchKit Extension/Pods-Contatinho WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3574232D77A02665664EB27B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84BCFD38D818A06D9390A1F /* libPods-Contatinho WatchKit App.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5AD53107B547091D496F3D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DFDA6D5CBB5E15F3A2997B /* libPods-Contatinho.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C187BC0B265FC9D900B559ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E29A6F4CD04D76D457C232 /* libPods-Contatinho WatchKit Extension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		335E54E4CC2C821935E82E3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24BFA5E7A808A70B90EFCD91 /* Pods-Contatinho.debug.xcconfig */,
+				5741D80FD3CAFC69DBDACCEF /* Pods-Contatinho.release.xcconfig */,
+				D8F5E693960ADA4CAE895C5C /* Pods-Contatinho WatchKit App.debug.xcconfig */,
+				4E7637EAD912F1C3B6A998A8 /* Pods-Contatinho WatchKit App.release.xcconfig */,
+				FF79FA32841C86653FC40A8D /* Pods-Contatinho WatchKit Extension.debug.xcconfig */,
+				6A9A69448240BD383D277241 /* Pods-Contatinho WatchKit Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C187BBF7265FC9D700B559ED = {
 			isa = PBXGroup;
 			children = (
 				C187BC06265FC9D800B559ED /* Contatinho WatchKit App */,
 				C187BC12265FC9D900B559ED /* Contatinho WatchKit Extension */,
 				C187BBFF265FC9D700B559ED /* Products */,
+				335E54E4CC2C821935E82E3D /* Pods */,
+				D959BDFDE29BECD85C9A8EF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -176,8 +222,19 @@
 			isa = PBXGroup;
 			children = (
 				C187BC3B265FD90600B559ED /* ContactViewModel.swift */,
+				C17DBD842666507B0090D097 /* QRCodeViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D959BDFDE29BECD85C9A8EF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD00BFBF6C993A3CA63B3E74 /* libPods-Contatinho.a */,
+				4556CE41D8D2537EFD04A961 /* libPods-Contatinho WatchKit App.a */,
+				31BBD5DD8D709F8A1376B432 /* libPods-Contatinho WatchKit Extension.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,8 +244,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C187BC2E265FC9DA00B559ED /* Build configuration list for PBXNativeTarget "Contatinho" */;
 			buildPhases = (
+				9E6D6F723FE170EEC86D393D /* [CP] Check Pods Manifest.lock */,
 				C187BBFC265FC9D700B559ED /* Resources */,
 				C187BC2D265FC9DA00B559ED /* Embed Watch Content */,
+				A5AD53107B547091D496F3D3 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,8 +263,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C187BC2A265FC9DA00B559ED /* Build configuration list for PBXNativeTarget "Contatinho WatchKit App" */;
 			buildPhases = (
+				7B8E5DC10DE3AA93D25F6CE6 /* [CP] Check Pods Manifest.lock */,
 				C187BC00265FC9D800B559ED /* Resources */,
 				C187BC29265FC9DA00B559ED /* Embed App Extensions */,
+				3574232D77A02665664EB27B /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,6 +282,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C187BC26265FC9DA00B559ED /* Build configuration list for PBXNativeTarget "Contatinho WatchKit Extension" */;
 			buildPhases = (
+				E82F73DD6DBCBFF7F93F32EA /* [CP] Check Pods Manifest.lock */,
 				C187BC0A265FC9D900B559ED /* Sources */,
 				C187BC0B265FC9D900B559ED /* Frameworks */,
 				C187BC0C265FC9D900B559ED /* Resources */,
@@ -301,11 +363,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7B8E5DC10DE3AA93D25F6CE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Contatinho WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6D6F723FE170EEC86D393D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Contatinho-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E82F73DD6DBCBFF7F93F32EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Contatinho WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C187BC0A265FC9D900B559ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C17DBD852666507B0090D097 /* QRCodeViewModel.swift in Sources */,
 				C187BC40265FE81000B559ED /* SelectContactsView.swift in Sources */,
 				C187BC18265FC9D900B559ED /* NotificationController.swift in Sources */,
 				C1D791952661164500029EE9 /* QRCodeView.swift in Sources */,
@@ -451,6 +583,7 @@
 		};
 		C187BC27265FC9DA00B559ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF79FA32841C86653FC40A8D /* Pods-Contatinho WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +608,7 @@
 		};
 		C187BC28265FC9DA00B559ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A9A69448240BD383D277241 /* Pods-Contatinho WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +633,7 @@
 		};
 		C187BC2B265FC9DA00B559ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F5E693960ADA4CAE895C5C /* Pods-Contatinho WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -519,6 +654,7 @@
 		};
 		C187BC2C265FC9DA00B559ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E7637EAD912F1C3B6A998A8 /* Pods-Contatinho WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -539,7 +675,9 @@
 		};
 		C187BC2F265FC9DA00B559ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24BFA5E7A808A70B90EFCD91 /* Pods-Contatinho.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2529YUQTU2;
@@ -552,7 +690,9 @@
 		};
 		C187BC30265FC9DA00B559ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5741D80FD3CAFC69DBDACCEF /* Pods-Contatinho.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2529YUQTU2;
