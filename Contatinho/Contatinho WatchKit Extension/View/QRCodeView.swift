@@ -11,15 +11,15 @@ import Contacts
 struct QRCodeView: View {
     @Environment(\.presentationMode) var presentationMode
     @Binding var backFromQRCodeView: Bool
+//    @StateObject var viewModel: QRCodeViewModel = QRCodeViewModel()
     let contact: Contact
-    @StateObject var viewModel: QRCodeViewModel = QRCodeViewModel()
     var body: some View {
         VStack {
             
-            Image(viewModel.generateQRCode(contact: contact)!, scale: 2.0, orientation: .up, label: Text("oi"))
-                .resizable()
-                .scaledToFit()
-                .padding()
+//            Image(viewModel.generateQRCode(contact: contact)!, scale: 2.0, orientation: .up, label: Text("oi"))
+//                .resizable()
+//                .scaledToFit()
+//                .padding()
 
             Button(action: {
                 self.backFromQRCodeView = true

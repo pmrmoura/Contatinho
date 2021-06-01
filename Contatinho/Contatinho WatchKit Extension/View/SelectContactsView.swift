@@ -9,21 +9,28 @@ import SwiftUI
 
 struct SelectContactsView: View {
     @StateObject var viewModel: ContactViewModel
+    @Environment(\.defaultMinListRowHeight) var minRowHeight
     var body: some View {
         ScrollView {
             VStack {
                 Text("Selecione o contato")
-                ForEach(viewModel.contacts, id: \.id) { contact in
-                    NavigationLink(
-                        destination: ConfirmRegistration(contact: contact),
-                        label: {
-                            Text(contact.firstName + " " + contact.lastName)
+
+                LazyVStack {
+                    ForEach(viewModel.contacts) { contact in
+                        ZStack {
+                            NavigationLink(
+                                destination: ConfirmRegistration(contact: contact),
+                                label: {
+                                    Text(contact.firstName + " " + contact.lastName)
+                                }
+                            )
                         }
-                    )
+                    }
                 }
             }
         }
         .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
         .padding(.leading)
         .padding(.trailing)
         .onAppear(perform: {
