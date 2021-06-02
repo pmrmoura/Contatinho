@@ -15,7 +15,6 @@ struct QRCodeView: View {
     var body: some View {
         ScrollView {
             VStack {
-                
                 Image(uiImage: qr)
                     .resizable()
                     .scaledToFit()
