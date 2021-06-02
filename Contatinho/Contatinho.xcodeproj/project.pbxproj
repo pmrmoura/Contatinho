@@ -29,6 +29,7 @@
 		C187BC39265FD83900B559ED /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187BC38265FD83900B559ED /* Contact.swift */; };
 		C187BC3C265FD90600B559ED /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187BC3B265FD90600B559ED /* ContactViewModel.swift */; };
 		C187BC40265FE81000B559ED /* SelectContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187BC3F265FE81000B559ED /* SelectContactsView.swift */; };
+		C1910BD62668269000F8AD37 /* Info2.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1910BD52668269000F8AD37 /* Info2.plist */; };
 		C1D791932661162F00029EE9 /* ConfirmRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D791922661162F00029EE9 /* ConfirmRegistration.swift */; };
 		C1D791952661164500029EE9 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D791942661164500029EE9 /* QRCodeView.swift */; };
 		E84BCFD38D818A06D9390A1F /* libPods-Contatinho WatchKit App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4556CE41D8D2537EFD04A961 /* libPods-Contatinho WatchKit App.a */; };
@@ -106,6 +107,7 @@
 		C187BC38265FD83900B559ED /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		C187BC3B265FD90600B559ED /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
 		C187BC3F265FE81000B559ED /* SelectContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectContactsView.swift; sourceTree = "<group>"; };
+		C1910BD52668269000F8AD37 /* Info2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info2.plist; sourceTree = "<group>"; };
 		C1D791922661162F00029EE9 /* ConfirmRegistration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmRegistration.swift; sourceTree = "<group>"; };
 		C1D791942661164500029EE9 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
 		D8F5E693960ADA4CAE895C5C /* Pods-Contatinho WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contatinho WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-Contatinho WatchKit App/Pods-Contatinho WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 		C187BBF7265FC9D700B559ED = {
 			isa = PBXGroup;
 			children = (
+				C1910BD52668269000F8AD37 /* Info2.plist */,
 				C187BC06265FC9D800B559ED /* Contatinho WatchKit App */,
 				C187BC12265FC9D900B559ED /* Contatinho WatchKit Extension */,
 				C187BBFF265FC9D700B559ED /* Products */,
@@ -355,6 +358,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1910BD62668269000F8AD37 /* Info2.plist in Resources */,
 				AC397DEB2666844C00B8E883 /* FPDPressure-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -607,6 +611,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Contatinho WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = 2529YUQTU2;
 				ENABLE_PREVIEWS = YES;
@@ -616,7 +621,8 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jobtest.Contatinho.watchkitapp.watchkitextension;
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.aline.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -632,6 +638,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Contatinho WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = 2529YUQTU2;
 				ENABLE_PREVIEWS = YES;
@@ -641,7 +648,8 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jobtest.Contatinho.watchkitapp.watchkitextension;
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.aline.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -659,10 +667,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2529YUQTU2;
 				IBSC_MODULE = Contatinho_WatchKit_Extension;
 				INFOPLIST_FILE = "Contatinho WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = jobtest.Contatinho.watchkitapp;
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.aline.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -680,10 +690,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2529YUQTU2;
 				IBSC_MODULE = Contatinho_WatchKit_Extension;
 				INFOPLIST_FILE = "Contatinho WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = jobtest.Contatinho.watchkitapp;
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.aline.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -699,10 +711,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2529YUQTU2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jobtest.Contatinho;
+				INFOPLIST_FILE = Info2.plist;
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.aline;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -714,10 +727,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2529YUQTU2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jobtest.Contatinho;
+				INFOPLIST_FILE = Info2.plist;
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.aline;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
