@@ -11,18 +11,18 @@ import Contacts
 struct QRCodeView: View {
     @Environment(\.presentationMode) var presentationMode
     @Binding var backFromQRCodeView: Bool
-    @StateObject var viewModel: QRCodeViewModel = QRCodeViewModel()
-    let contact: Contact
+    var qr: UIImage
     var body: some View {
         ScrollView {
             VStack {
                 
-                Image(viewModel.generateQRCode(contact: contact)!, scale: 2.0, orientation: .up, label: Text("oi"))
+                Image(uiImage: qr)
                     .resizable()
                     .scaledToFit()
                     .padding()
 
                 Button(action: {
+                    UserDefaults.standard.removeObject(forKey: "encodedImage")
                     self.backFromQRCodeView = true
                     self.presentationMode.wrappedValue.dismiss()
     
@@ -36,6 +36,12 @@ struct QRCodeView: View {
                 .padding()
             }
             .navigationBarHidden(true)
+            .onAppear(perform: {
+                let data = qr.pngData()
+                let imageBase64String = data?.base64EncodedString()
+                UserDefaults.standard.set(imageBase64String, forKey: "encodedImage")
+                print("salvou")
+            })
         }
     }
 }

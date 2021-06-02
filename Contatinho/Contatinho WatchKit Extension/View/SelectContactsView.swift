@@ -10,6 +10,9 @@ import SwiftUI
 struct SelectContactsView: View {
     @StateObject var viewModel: ContactViewModel
     @Environment(\.defaultMinListRowHeight) var minRowHeight
+    @State var qrCodeSaved: UIImage = UIImage()
+    @State var hasQRCode: Bool = false
+    @State var auxBool = false
     var body: some View {
         ScrollView {
             VStack {
@@ -25,6 +28,15 @@ struct SelectContactsView: View {
                                         Text(contact.firstName + " " + contact.lastName)
                                     }
                                 )
+                                if self.hasQRCode {
+                                    NavigationLink(
+                                        destination: QRCodeView(backFromQRCodeView: $auxBool, qr: self.qrCodeSaved),
+                                        isActive: $hasQRCode,
+                                        label: {
+                                            Text(contact.firstName + " " + contact.lastName)
+                                        }
+                                    )
+                                }
                             }
                         }
                     }
@@ -42,6 +54,23 @@ struct SelectContactsView: View {
         .padding(.trailing)
         .onAppear(perform: {
             self.viewModel.permissions()
+
+            if let imageBase64String = UserDefaults.standard.value(forKey: "encodedImage"),
+               let url = URL(string: String(format:"data:application/octet-stream;base64,%@",imageBase64String as! CVarArg))
+            {
+                do
+                {
+                    let data =  try Data(contentsOf: url)
+                    let image = UIImage(data: data)
+                    self.qrCodeSaved = image!
+                    self.hasQRCode = true
+                    
+                }
+                catch let error
+                {
+                    print(error)
+                }
+            }
         })
     }
 }
