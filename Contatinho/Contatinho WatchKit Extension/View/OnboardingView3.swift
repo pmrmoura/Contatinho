@@ -19,7 +19,7 @@ struct OnboardingView3: View {
                 Text("PRONTO PARA FAZER CONTATO?")
                     .fixedSize(horizontal: false, vertical: true)
                     .multilineTextAlignment(.center)
-                    .font(Font.custom("FPDPressure-SemiBold", size: 12))
+                    .font(Font.custom("Orbitron-VariableFont_wght.ttf", size: 12))
                     
                 NavigationLink(
                     destination: SelectContactsView(viewModel: viewModel),

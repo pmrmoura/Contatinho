@@ -18,7 +18,7 @@ struct OnboardingView2: View {
                 Text("PARA USAR MINHA TECNOLOGIA SEU WATCH PRECISA ESTAR VINCULADO AO ICLOUD!")
                     .fixedSize(horizontal: false, vertical: true)
                     .multilineTextAlignment(.center)
-                    .font(Font.custom("FPDPressure-SemiBold", size: 12))
+                    .font(Font.custom("Orbitron-VariableFont_wght.ttf", size: 12))
                     NavigationLink(
                         destination: OnboardingView3(),
                         isActive: $goToOnboarding3,

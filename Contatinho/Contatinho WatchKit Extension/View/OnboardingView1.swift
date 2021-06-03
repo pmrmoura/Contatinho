@@ -17,7 +17,7 @@ struct OnboardingView1: View {
                 Text("OLÁ TERRAQUEO! COMPARTILHAR CONTATOS NUNCA FOI TÃO FÁCIL...")
                     .fixedSize(horizontal: false, vertical: true)
                     .multilineTextAlignment(.center)
-                    .font(Font.custom("FPDPressure-SemiBold", size: 12))
+                    .font(Font.custom("Orbitron-VariableFont_wght.ttf", size: 12))
                 NavigationLink(
                     destination: OnboardingView2(),
                     isActive: $goToOnboarding2,
