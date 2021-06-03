@@ -26,6 +26,9 @@ struct SelectContactsView: View {
                                     destination: ConfirmRegistration(contact: contact),
                                     label: {
                                         Text(contact.firstName + " " + contact.lastName)
+                                            .frame(maxWidth: .infinity, alignment: .leading)
+                                            .lineLimit(1)
+                                            .truncationMode(.tail)
                                     }
                                 )
                                 if self.hasQRCode {

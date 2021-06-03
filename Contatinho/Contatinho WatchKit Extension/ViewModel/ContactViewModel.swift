@@ -47,7 +47,7 @@ class ContactViewModel: ObservableObject {
             CNContactFamilyNameKey,
             CNContactPhoneNumbersKey,
             CNContactEmailAddressesKey,
-            CNContactPostalAddressesKey
+            CNContactPostalAddressesKey,
         ]
         as [CNKeyDescriptor]
         let fetchReq = CNContactFetchRequest(keysToFetch: descriptor)
