@@ -14,7 +14,7 @@ struct QRCodeView: View {
     var qr: UIImage
     var body: some View {
         ScrollView {
-            VStack {
+            VStack(alignment: .center) {
                 
                 Image(uiImage: qr)
                     .resizable()
@@ -29,10 +29,12 @@ struct QRCodeView: View {
                 }, label: {
                     Text("Refazer registro")
                         .fontWeight(.bold)
+                        .lineLimit(1)
+                        .allowsTightening(true)
                 })
                 .background(Color("alienGreen"))
                 .cornerRadius(10.0)
-                .scaledToFit()
+                .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
             }
             .navigationBarHidden(true)
