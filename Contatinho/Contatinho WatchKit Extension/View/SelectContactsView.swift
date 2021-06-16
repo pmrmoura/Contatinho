@@ -17,6 +17,8 @@ struct SelectContactsView: View {
         ScrollView {
             VStack {
                 Text("Selecione o contato")
+                    .lineLimit(1)
+                    .allowsTightening(true)
 
                 if viewModel.contacts.count > 0 {
                     LazyVStack {

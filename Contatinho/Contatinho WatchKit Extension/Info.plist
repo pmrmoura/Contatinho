@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Contatinho WatchKit Extension</string>
+	<string>E.T. Contact WatchKit Extension</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -23,7 +23,7 @@
 	<key>CLKComplicationPrincipalClass</key>
 	<string>$(PRODUCT_MODULE_NAME).ComplicationController</string>
 	<key>NSContactsUsageDescription</key>
-	<string>Precisamos de acesso aos contatos</string>
+	<string>Precisamos de acesso aos contatos apenas para lista-los e você selecionar o contato desejado. Apenas o QRCode gerado com seu contato é salvo no próprio relógio, sem conexão com nenhum servidor.</string>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionAttributes</key>

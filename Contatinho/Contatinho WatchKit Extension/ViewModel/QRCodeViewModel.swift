@@ -14,9 +14,13 @@ class QRCodeViewModel: ObservableObject {
         
         print("entrou")
         
-        guard let image = EFQRCode.generate(for: data) else {
-            print("failed")
-            return nil
+        guard let image = EFQRCode.generate(
+                for: data,
+                backgroundColor: UIColor.clear.cgColor,
+                foregroundColor: UIColor(named: "alienGreen")!.cgColor)
+            else {
+                print("failed")
+                return nil
         }
         
         print("entrou2")

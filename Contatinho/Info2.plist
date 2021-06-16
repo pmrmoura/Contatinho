@@ -2,7 +2,9 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleDisplayName</key>
+	<string>E.T. Contact</string>
 	<key>NSContactsUsageDescription</key>
-	<string>Precisamos de acesso aos contatos</string>
+	<string>Precisamos de acesso aos contatos apenas para lista-los e você selecionar o contato desejado. Apenas o QRCode gerado com seu contato é salvo no próprio relógio, sem conexão com nenhum servidor.</string>
 </dict>
 </plist>
